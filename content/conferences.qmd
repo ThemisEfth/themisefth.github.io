@@ -1,0 +1,104 @@
+---
+title: "Conferences and Presentations"
+format:
+  html:
+    toc: true
+    code-tools: false
+---
+
+------------------------------------------------------------------------
+
+## Emotions 2023
+
+**Symposium**\
+**Tilburg, Netherlands**\
+**September 2023\
+[Download Slides](../materials/symposium_slides/Emotions_2023.pdf)**
+
+![Emotions - Symposium group photo](../images/conference_images/Emotions_2023.jpg){fig-alt="Group photo from the Emotions Symposium in a conference setting, featuring Dr Sebastian Korb, Dr Joshua Baker, Dr Tanja Wingenbach, and Dr Michal Olszanowski." fig-align="left" width="500"}
+
+I presented at the Emotions Conference in Tilburg, Netherlands, as part of a symposium titled *Re-Examining the Facial Feedback Hypothesis: Investigating Emotion Induction through Functional Neuromuscular Electrical Stimulation (fNMES) of Facial Muscles.* My talk highlighted empirical findings on how fNMES-induced facial expressions, such as smiling and frowning, influence emotion perception and emotional states.
+
+------------------------------------------------------------------------
+
+## International Organization of Psychophysiology (IOP)
+
+**Symposium**\
+**Geneva, Switzerland**\
+**June 2023\
+[Download Slides](../materials/symposium_slides/IOP_2023.pdf)**
+
+![IOP Conference](../images/conference_images/IOP_2023.jpg){fig-align="left" width="500"}
+
+I presented my PhD research at the International Organization of Psychophysiology (IOP) conference in Geneva, Switzerland. My talk showcased the application of facial electrical stimulation (FES) to explore the relationship between facial muscle activation and emotional processing, contributing to discussions on psychophysiological methods and theories.
+
+------------------------------------------------------------------------
+
+## European Society for Cognitive and Affective Neuroscience (ESCAN)
+
+**Symposium\
+Austria, Vienna**\
+**July 2022\
+[Download Slides](../materials/symposium_slides/ESCAN_2022.pdf)**
+
+![ESCAN Conference](../images/conference_images/ESCAN_2022.jpg){fig-align="left" width="500"}
+
+I presented at the European Society for Cognitive and Affective Neuroscience (ESCAN) symposium in 2022. My presentation explored how facial feedback shapes emotional perception, emphasizing the integration of multisensory stimuli in social and affective neuroscience research.
+
+------------------------------------------------------------------------
+
+## Second Bodily and Cognitive Selves Eastern Arc Workshop
+
+**Poster Presentation**\
+**Essex University, Colchester, UK**\
+**13 June\
+[Download Poster](../materials/posters/EastArc_2022.pdf)**
+
+![Eastern Arc Workshop Poster Presentation](../images/conference_images/EARC_2022.jpg){width="500"}
+
+I presented a poster at the Second Bodily and Cognitive Selves Eastern Arc Workshop, held at Essex University in Colchester, UK. The workshop brought together researchers from Essex, UEA, and Kent to explore interdisciplinary perspectives on bodily and cognitive selves. My poster focused on the interplay between facial neuromuscular electrical stimulation (fNMES) and emotional perception, highlighting preliminary findings on user experiences and the potential cognitive and affective implications of this novel technique.
+
+This presentation contributed to discussions on innovative methods for studying embodied cognition and emotions within the context of interdisciplinary research.
+
+[Visit the workshop website for more information.](https://easternarc.ac.uk/news/registration-open-for-earc-workshop-on-bodily-and-cognitive-selves/)
+
+------------------------------------------------------------------------
+
+## British Neuroscience Association (BNA) 2021
+
+**Symposium**\
+**Virtual Conference**\
+**April 2021\
+[Download Poster](../materials/posters/BNA_2021.pdf)**
+
+![BNA 2021 Conference](../images/conference_images/BNA_2021.jpg){fig-align="left" width="500"}
+
+I participated in the British Neuroscience Association (BNA) 2021 virtual conference, where I presented research on participant concerns regarding the prospect of receiving facial neuromuscular electrical stimulation (fNMES). The talk explored user perspectives, highlighting apprehensions about safety, comfort, and the psychological impact of fNMES. This research aimed to inform ethical and user-centred approaches for future applications of fNMES in both experimental and clinical settings.
+
+[Visit the conference website for more information.](https://meetings.bna.org.uk/bna2021/)
+
+------------------------------------------------------------------------
+
+## Middlesex University Postgraduate Researchers' Summer Conference
+
+**Poster Presentation\
+London, UK**\
+**March 2020\
+[Download Poster](../materials/posters/MDXSC_2020.pdf)**
+
+![Middlesex Postgraduate Researchers' Conference](../images/conference_images/MDX_2020.jpeg){fig-align="left" width="250"}
+
+At the Middlesex University Postgraduate Researchers' Summer Conference in 2020, I presented a poster titled *Exploring the Role of Spatial Attention in Movement Simulation.* The poster highlighted the interplay between spatial attention and embodied cognition, showcasing key insights into human movement perception.
+
+------------------------------------------------------------------------
+
+## British Association of Cognitive Neuroscience (BACN)
+
+**Poster Presentation\
+Cambridge, UK**\
+**November 2019\
+[Download Poster](../materials/posters/BACN_2020.pdf)**
+
+![BACN Conference](../images/conference_images/BACN_2019.jpg){fig-align="left" width="250"}
+
+I presented a poster at the British Association of Cognitive Neuroscience (BACN) conference in 2019. The poster, *Exploring the Role of Spatial Attention in Movement Simulation,* examined the influence of attention on the simulation of movement, contributing to discussions on cognitive processes in neuroscience.

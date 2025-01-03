@@ -1,0 +1,124 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    toc: true
+    pdf-engine: xelatex
+    PrettyPDF-pdf: default
+---
+
+Welcome to my website. Below, you can find my CV outlining my professional experience, research contributions, and expertise. For inquiries, contact me at [tefthimi\@ed.ac.uk](mailto:tefthimi@ed.ac.uk).
+
+## Areas of Expertise and Interest
+
+-   Social cognitive and affective neuroscience
+-   Electroencephalography (EEG)
+-   Facial expression production and processing
+-   Biological motion production and processing
+-   Statistical software: Matlab, JASP, R, Python
+-   Facial Electrical Stimulation
+-   Open Science principles
+-   Peripheral physiology: HR, GSR
+
+## Professional Profile
+
+I am a methodological researcher with a PhD in Psychology from the University of Essex, specialising in social and cognitive neuroscience. My expertise integrates advanced quantitative methods, such as multilevel modelling and machine learning, with physiological and longitudinal data to investigate complex social interactions.
+
+Currently, I am a postdoctoral researcher at the University of Edinburgh, where I study the influence of social context on interactions between autistic and non-autistic individuals as part of the Diversity in Social Intelligence Project. I focus on video-based analyses of non-verbal synchrony and the interplay between verbal and motor behaviours.
+
+I have developed facial neuromuscular electrical stimulation (fNMES) to study its effects on emotion perception, employing innovative methods like EEG and video analysis. I thrive in interdisciplinary teams, handle complex datasets, recruit participants, and create analytical tools. I am deeply committed to open science practices and collaborative research.
+
+### Bibliometrics (August 2023)
+
+-   **Citations:** 28 (Google Scholar)
+-   **h-index:** 4 (Google Scholar)
+-   **Peer-reviewed publications:** 5
+-   **Conference presentations:** 5
+
+## Research Experience
+
+### <i class="fas fa-flask"></i> Postdoctoral Researcher \| University of Edinburgh (2024–Present)
+
+-   Conducting research on social interactions between autistic and non-autistic adults.
+-   Analysing non-verbal synchrony using advanced computer vision techniques.
+-   Promoting inclusivity and open science principles.
+
+#### Key Outcomes:
+
+1.  Registered Report under review (*Autism*).
+2.  Manuscript on multimodal gestures and relationships in preparation.
+3.  Developed an R package for dyadic analysis.
+
+### <i class="fas fa-microscope"></i> PhD Researcher \| University of Essex (2020–2024)
+
+-   Developed facial electrical stimulation (FES) to engage specific facial muscles.
+-   Conducted a systematic literature review and two experiments on emotion perception.
+
+#### Key Outcomes:
+
+1.  Four peer-reviewed publications.
+2.  Presentations at five international conferences.
+3.  Innovated the use of FES in affective neuroscience research.
+
+### <i class="fas fa-briefcase"></i> Research Assistant Internship \| Middlesex University Student Union (2016–2017)
+
+-   Conducted research on topics like student housing policies.
+-   Produced actionable recommendations to improve student experiences.
+
+## Teaching and Communication
+
+### <i class="fas fa-chalkboard-teacher"></i> Graduate Laboratory Assistant \| University of Essex (2020–2022)
+
+-   Facilitated workshops on statistics and research methods.
+-   Supported first-year psychology students with SPSS and statistical analysis.
+
+### <i class="fas fa-user-graduate"></i> Student Learning Assistant (SLA) \| Middlesex University (2016–2017)
+
+-   Assisted first-year psychology classes with research design and data analysis.
+
+## Other Work Experience
+
+### <i class="fas fa-hand-holding-heart"></i> Volunteer Peer Mentor \| MIND, London (2015–2016)
+
+-   Supported young individuals to achieve goals outlined in personal action plans.
+
+### <i class="fas fa-users"></i> Vice-President \| Middlesex University Debating Society (2017–2019)
+
+-   Hosted and organised debate tournaments and weekly debate sessions.
+
+## <i class="fas fa-graduation-cap"></i> Education
+
+-   **PhD in Psychology** \| University of Essex (2024)\
+    Thesis: *A spark of emotion: the impact of electrical facial muscle activation on emotional state and affective processing*\
+    Examiners: Dr Gethin Hughes and Professor Beatriz Calvo Merino\
+    Supervisor: Dr Sebastian Korb\
+    Pass with no corrections: 18th January 2024
+
+-   **MSc in Cognitive Neuroscience** \| Middlesex University (2019)\
+    Thesis: *Attention Allocation During the Observation of Biological Motion: An EEG Study*\
+    Examiners: Dr Emma Ward and Dr Nicholas Cooper\
+    Supervisors: Dr Alexander Jones and Dr Jonathan Silas\
+    Pass with minor corrections: 18th December 2019
+
+-   **BSc (Hons) in Psychology** \| Middlesex University (2018)\
+    Dissertation: *Exploring the Relationship Between Interoceptive Awareness and Embodied Cognition*
+
+## Research and Technical Skills
+
+-   **Programming:** Proficient in R and Python for data processing, modelling, and machine learning.
+-   **Experimental Design:** Skilled with PsychoPy, Pavlovia, and Qualtrics for designing and conducting studies.
+-   **Video Analysis:** Expertise in FaceReader, OpenFace, and OpenCV for automated video coding.
+-   **Physiological Methods:** Familiar with EEG, HR, GSR, and FES.
+
+## Awards
+
+-   Best Presentation with Poster – MDX Research Student Summer Conference 2019
+-   MDX STEM Scholarship
+
+## <i class="fas fa-chalkboard"></i> Conference Presentations
+
+-   Presented findings at international conferences, including ESCAN, IOP, and BNA.
+
+------------------------------------------------------------------------
+
+For further details, feel free to explore my publications and ongoing projects. [Download my CV (PDF)](/pdfs/cv.pdf){role="button" data-toggle="pdf" title="Data File"}.

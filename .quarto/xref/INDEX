@@ -1,0 +1,52 @@
+{
+  "index.qmd": {
+    "index.html": "6a6125e3"
+  },
+  "about.qmd": {
+    "about.html": "6163e2d6"
+  },
+  "Publications.qmd": {
+    "Publications.html": "10384944",
+    "Publications.tex": "ed34e348"
+  },
+  "blog-posts/blog_1.qmd": {
+    "blog_1.html": "5b8e18c0"
+  },
+  "blog.qmd": {
+    "blog.html": "8633f9b2"
+  },
+  "CV.qmd": {
+    "CV.html": "679f7e08",
+    "CV.tex": "9b782dd3"
+  },
+  "cv.qmd": {
+    "cv.html": "5d3da991"
+  },
+  "software.qmd": {
+    "software.html": "841632ee"
+  },
+  "publications.qmd": {
+    "publications.html": "cee3c6a4"
+  },
+  "content/index.qmd": {
+    "index.html": "e62232cd"
+  },
+  "content/publications.qmd": {
+    "publications.html": "4a88ade7"
+  },
+  "content/software.qmd": {
+    "software.html": "d73f860a"
+  },
+  "content/cv.qmd": {
+    "cv.html": "699d12e5"
+  },
+  "content/blog.qmd": {
+    "blog.html": "88aaa096"
+  },
+  "content/blog-posts/blog_1.qmd": {
+    "blog_1.html": "4dc286b0"
+  },
+  "content/conferences.qmd": {
+    "conferences.html": "611a9e7c"
+  }
+}

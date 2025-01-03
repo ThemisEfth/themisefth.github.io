@@ -1,0 +1,88 @@
+---
+format:
+  html:
+    header-includes: |
+      <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Asap" type="text/css"/>
+    toc: true
+
+mainfont: Asap
+sansfont: Asap
+---
+
+# Themis N. Efthimiou
+
+## <i class="fa-solid fa-file-lines"></i> In Preparation
+
+Baker, J., Ngo, H-V., **Efthimiou, T.N.**, Elsenaar, A., Mehu, M., & Korb, S. *Probing the time-course of facial feedback effects on facial emotion recognition.* Expected publication date: June 2025.
+
+**Efthimiou, T.N.**, Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, N., Lages, M., Fletcher-Watson, S., & Crompton, C.J.\
+*Social motor synchrony and interactive rapport in autistic, non-autistic, and mixed neurotype dyads: A Stage 1 Registered Report. Autism.* Stage 1 Principal Acceptance. Expected publication date: August 2025.
+
+**Efthimiou, T.N.**, Ackerman, R., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, Fletcher-Watson, S., & Crompton, C.J.\
+*Partnered Perspectives: A Study of Interpersonal Communication Dynamics in Dyads with and without Autism.*\
+Expected publication date: May 2025.
+
+Efthimiou, T.N. & Crompton, C.J. *Introducing 'Duet': An R package for the Analysis of Dyads.* Expected publication date: May 2025.
+
+Crompton, C.J., Foster, S., Wilks, C., Dodd, M., **Efthimiou, T.N.**, Ropar, D., Sasson, Lages, M., & Fletcher-Watson, S.\
+*Information transfer within and between autistic and non-autistic people: Stage 2 Registered Report. Nature Human Behaviour.* Expected publication date: May 2025.
+
+## <i class="fa-solid fa-file-lines"></i> Publications
+
+Baker, J., **Efthimiou, T.**, Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Computer-controlled electrical stimulation of facial muscles by facial neuromuscular electrical stimulation (fNMES): Hardware and software solutions. *Journal of Neuroscience Methods*, *411*, 110266. <https://doi.org/10.1016/j.jneumeth.2024.110266>
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/JNM_2024.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [Code](https://github.com/ThemisEfth/fNMES-Technical-Guide){.btn-sm .btn .btn-primary}
+:::
+::::
+
+**Efthimiou, T . N.**, Baker, J., Elsenaar, A., Mehu, M., & Korb, S. (2024). Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology. Emotion. Advanced online publication. <https://doi.org/10.1037/emo0001408.>
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/Emotion_2024.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf" title="Data File"} [OSF](https://osf.io/d579h/){.btn-sm .btn .btn-primary role="button" data-toggle="osf" title="Data File"}
+:::
+::::
+
+<hr width="10%">
+
+**Efthimiou, T . N.**, Baker, J., Clarke, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Zygomaticus activation through facial neuromuscular electrical stimulation (fNMES) induces happiness perception in ambiguous facial expressions and affects neural correlates of face processing. Social Cognitive and Affective Neuroscience, 19(1), nsae013. <https://doi.org/10.1093/scan/nsae013>
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/SCAN_2024.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf" title="Data File"} [OSF](https://osf.io/46y9s/){.btn-sm .btn .btn-primary role="button" data-toggle="osf" title="Data File"}
+:::
+::::
+
+<hr width="10%">
+
+**Efthimiou, T.N.**, Hernandez, M.P., Elsenaar, A., Mehu, M. and Korb, S. Application of facial neuromuscular electrical stimulation (fNMES) in psychophysiological research: Practical recommendations based on a systematic review of the literature. Behav Res (2023). <https://doi.org/10.3758/s13428-023-02262-7>
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/BRM_2023.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [Table](https://fnmesreviewtablegit-j6b1jp6hzgq.streamlit.app/){.btn-sm .btn .btn-primary role="button" data-toggle="data" title="data"} [ShinyApp](https://mphssx.shinyapps.io/nmes_parameter/){.btn-sm .btn .btn-primary role="button" data-toggle="data" title="data"}
+:::
+::::
+
+<hr width="10%">
+
+Baker, J., **Efthimiou, T.**, Scherer, R., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2023). Measurement of the N170 during facial neuromuscular electrical stimulation (fNMES). Journal of Neuroscience Methods, 109877.<https://doi.org/10.1016/j.jneumeth.2023.109877>
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/JNM_2023.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [OSF](https://osf.io/t4wa5/ "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="osf"}
+:::
+::::
+
+<hr width="10%">
+
+**Efthimiou, T.N.**, Hanel, P.H.P. & Korb, S. Volunteers’ concerns about facial neuromuscular electrical stimulation. *BMC Psychol* **10**, 117 (2022). https://doi.org/10.1186/s40359-022-00827-3
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/BMC_2022.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [OSF](https://osf.io/uf2ed/ "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="osf"}
+:::
+::::
+
+<hr width="10%">

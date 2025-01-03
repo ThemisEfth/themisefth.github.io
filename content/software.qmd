@@ -1,0 +1,43 @@
+---
+title: "Software and Tools"
+---
+
+I develop software tools to support data analysis and experimental research in social and cognitive neuroscience. Below is a list of my contributions, including R packages and other utilities that aim to make complex analyses more accessible and reproducible.
+
+------------------------------------------------------------------------
+
+## R Packages
+
+### **Duet**
+
+-   **Description:** An R package for analysing dyadic interactions, focusing on pre-processing, stimuli generation, and, movement kinematics. Designed to handle complex nested data structures and provide user-friendly interfaces for visualisation.
+-   **Key Features:**
+    -   Visualisation of interaction dynamics
+    -   Functions for mixed-effects modelling of dyadic data
+-   **Repository:** [GitHub Repository](https://github.com/ThemisEfth/Duet)
+-   **Documentation:** [Package Documentation](https://yourwebsite/duet-docs)
+
+## Experimental Design Tools
+
+### **Facial Electrical Stimulation Framework**
+
+-   **Description:** A Python-based framework for real-time control and analysis of facial electrical stimulation (FES) experiments. It integrates with hardware and software to facilitate high-precision studies on emotion perception and facial feedback.
+-   **Key Features:**
+    -   Hardware integration for Arduino controlled electrical stimulators
+    -   Compatibility with MATLAB and Psychopy for experiments
+-   **Repository:** [GitHub Repository](https://github.com/ThemisEfth/fNMES-Technical-Guide)
+
+------------------------------------------------------------------------
+
+## Contributions to Open Science
+
+I am committed to open science practices, and all my tools are freely available on GitHub. I actively maintain these repositories and welcome contributions and feedback from the research community.
+
+-   **GitHub Profile:** [github.com/ThemisEfth](https://github.com/ThemisEfth)
+-   **Open Science Framework (OSF):** [OSF](https://osf.io/3y8es/)
+
+------------------------------------------------------------------------
+
+## Want to Collaborate?
+
+If you have ideas for new tools, improvements to existing packages, or just want to explore how these tools can support your research, feel free to get in touch at [tefthimi\@ed.ac.uk](mailto:tefthimi@ed.ac.uk).

@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "content/blog.html",
+    "href": "content/blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog\nIf you like the blog, consider subscribing below to be notified whenever a new post comes out (it’s free!).\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\nxxx\n\n\n\nThemis N. Efthimiou\n\n\nSep 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/software.html",
+    "href": "content/software.html",
+    "title": "Software and Tools",
+    "section": "",
+    "text": "I develop software tools to support data analysis and experimental research in social and cognitive neuroscience. Below is a list of my contributions, including R packages and other utilities that aim to make complex analyses more accessible and reproducible."
+  },
+  {
+    "objectID": "content/software.html#r-packages",
+    "href": "content/software.html#r-packages",
+    "title": "Software and Tools",
+    "section": "R Packages",
+    "text": "R Packages\n\nDuet\n\nDescription: An R package for analysing dyadic interactions, focusing on pre-processing, stimuli generation, and, movement kinematics. Designed to handle complex nested data structures and provide user-friendly interfaces for visualisation.\nKey Features:\n\nVisualisation of interaction dynamics\nFunctions for mixed-effects modelling of dyadic data\n\nRepository: GitHub Repository\nDocumentation: Package Documentation"
+  },
+  {
+    "objectID": "content/software.html#experimental-design-tools",
+    "href": "content/software.html#experimental-design-tools",
+    "title": "Software and Tools",
+    "section": "Experimental Design Tools",
+    "text": "Experimental Design Tools\n\nFacial Electrical Stimulation Framework\n\nDescription: A Python-based framework for real-time control and analysis of facial electrical stimulation (FES) experiments. It integrates with hardware and software to facilitate high-precision studies on emotion perception and facial feedback.\nKey Features:\n\nHardware integration for Arduino controlled electrical stimulators\nCompatibility with MATLAB and Psychopy for experiments\n\nRepository: GitHub Repository"
+  },
+  {
+    "objectID": "content/software.html#contributions-to-open-science",
+    "href": "content/software.html#contributions-to-open-science",
+    "title": "Software and Tools",
+    "section": "Contributions to Open Science",
+    "text": "Contributions to Open Science\nI am committed to open science practices, and all my tools are freely available on GitHub. I actively maintain these repositories and welcome contributions and feedback from the research community.\n\nGitHub Profile: github.com/ThemisEfth\nOpen Science Framework (OSF): OSF"
+  },
+  {
+    "objectID": "content/software.html#want-to-collaborate",
+    "href": "content/software.html#want-to-collaborate",
+    "title": "Software and Tools",
+    "section": "Want to Collaborate?",
+    "text": "Want to Collaborate?\nIf you have ideas for new tools, improvements to existing packages, or just want to explore how these tools can support your research, feel free to get in touch at tefthimi@ed.ac.uk."
+  },
+  {
+    "objectID": "content/conferences.html#emotions-2023",
+    "href": "content/conferences.html#emotions-2023",
+    "title": "Conferences and Presentations",
+    "section": "Emotions 2023",
+    "text": "Emotions 2023\nSymposium\nTilburg, Netherlands\nSeptember 2023\nDownload Slides\n\n\n\nEmotions - Symposium group photo\n\n\nI presented at the Emotions Conference in Tilburg, Netherlands, as part of a symposium titled Re-Examining the Facial Feedback Hypothesis: Investigating Emotion Induction through Functional Neuromuscular Electrical Stimulation (fNMES) of Facial Muscles. My talk highlighted empirical findings on how fNMES-induced facial expressions, such as smiling and frowning, influence emotion perception and emotional states."
+  },
+  {
+    "objectID": "content/conferences.html#international-organization-of-psychophysiology-iop",
+    "href": "content/conferences.html#international-organization-of-psychophysiology-iop",
+    "title": "Conferences and Presentations",
+    "section": "International Organization of Psychophysiology (IOP)",
+    "text": "International Organization of Psychophysiology (IOP)\nSymposium\nGeneva, Switzerland\nJune 2023\nDownload Slides\n\n\n\nIOP Conference\n\n\nI presented my PhD research at the International Organization of Psychophysiology (IOP) conference in Geneva, Switzerland. My talk showcased the application of facial electrical stimulation (FES) to explore the relationship between facial muscle activation and emotional processing, contributing to discussions on psychophysiological methods and theories."
+  },
+  {
+    "objectID": "content/conferences.html#european-society-for-cognitive-and-affective-neuroscience-escan",
+    "href": "content/conferences.html#european-society-for-cognitive-and-affective-neuroscience-escan",
+    "title": "Conferences and Presentations",
+    "section": "European Society for Cognitive and Affective Neuroscience (ESCAN)",
+    "text": "European Society for Cognitive and Affective Neuroscience (ESCAN)\nSymposium\nAustria, Vienna\nJuly 2022\nDownload Slides\n\n\n\nESCAN Conference\n\n\nI presented at the European Society for Cognitive and Affective Neuroscience (ESCAN) symposium in 2022. My presentation explored how facial feedback shapes emotional perception, emphasizing the integration of multisensory stimuli in social and affective neuroscience research."
+  },
+  {
+    "objectID": "content/conferences.html#second-bodily-and-cognitive-selves-eastern-arc-workshop",
+    "href": "content/conferences.html#second-bodily-and-cognitive-selves-eastern-arc-workshop",
+    "title": "Conferences and Presentations",
+    "section": "Second Bodily and Cognitive Selves Eastern Arc Workshop",
+    "text": "Second Bodily and Cognitive Selves Eastern Arc Workshop\nPoster Presentation\nEssex University, Colchester, UK\n13 June\nDownload Poster\n\n\n\nEastern Arc Workshop Poster Presentation\n\n\nI presented a poster at the Second Bodily and Cognitive Selves Eastern Arc Workshop, held at Essex University in Colchester, UK. The workshop brought together researchers from Essex, UEA, and Kent to explore interdisciplinary perspectives on bodily and cognitive selves. My poster focused on the interplay between facial neuromuscular electrical stimulation (fNMES) and emotional perception, highlighting preliminary findings on user experiences and the potential cognitive and affective implications of this novel technique.\nThis presentation contributed to discussions on innovative methods for studying embodied cognition and emotions within the context of interdisciplinary research.\nVisit the workshop website for more information."
+  },
+  {
+    "objectID": "content/conferences.html#british-neuroscience-association-bna-2021",
+    "href": "content/conferences.html#british-neuroscience-association-bna-2021",
+    "title": "Conferences and Presentations",
+    "section": "British Neuroscience Association (BNA) 2021",
+    "text": "British Neuroscience Association (BNA) 2021\nSymposium\nVirtual Conference\nApril 2021\nDownload Poster\n\n\n\nBNA 2021 Conference\n\n\nI participated in the British Neuroscience Association (BNA) 2021 virtual conference, where I presented research on participant concerns regarding the prospect of receiving facial neuromuscular electrical stimulation (fNMES). The talk explored user perspectives, highlighting apprehensions about safety, comfort, and the psychological impact of fNMES. This research aimed to inform ethical and user-centred approaches for future applications of fNMES in both experimental and clinical settings.\nVisit the conference website for more information."
+  },
+  {
+    "objectID": "content/conferences.html#middlesex-university-postgraduate-researchers-summer-conference",
+    "href": "content/conferences.html#middlesex-university-postgraduate-researchers-summer-conference",
+    "title": "Conferences and Presentations",
+    "section": "Middlesex University Postgraduate Researchers’ Summer Conference",
+    "text": "Middlesex University Postgraduate Researchers’ Summer Conference\nPoster Presentation\nLondon, UK\nMarch 2020\nDownload Poster\n\n\n\nMiddlesex Postgraduate Researchers’ Conference\n\n\nAt the Middlesex University Postgraduate Researchers’ Summer Conference in 2020, I presented a poster titled Exploring the Role of Spatial Attention in Movement Simulation. The poster highlighted the interplay between spatial attention and embodied cognition, showcasing key insights into human movement perception."
+  },
+  {
+    "objectID": "content/conferences.html#british-association-of-cognitive-neuroscience-bacn",
+    "href": "content/conferences.html#british-association-of-cognitive-neuroscience-bacn",
+    "title": "Conferences and Presentations",
+    "section": "British Association of Cognitive Neuroscience (BACN)",
+    "text": "British Association of Cognitive Neuroscience (BACN)\nPoster Presentation\nCambridge, UK\nNovember 2019\nDownload Poster\n\n\n\nBACN Conference\n\n\nI presented a poster at the British Association of Cognitive Neuroscience (BACN) conference in 2019. The poster, Exploring the Role of Spatial Attention in Movement Simulation, examined the influence of attention on the simulation of movement, contributing to discussions on cognitive processes in neuroscience."
+  },
+  {
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Themis N. Efthimiou",
+    "section": "",
+    "text": "Hi, I’m Themis Nikolas Efthimiou, a researcher passionate about uncovering the fascinating complexities of human emotion, perception, and social interaction. My work sits at the intersection of neuroscience and psychology, exploring how we connect with others and experience the world."
+  },
+  {
+    "objectID": "content/index.html#welcome",
+    "href": "content/index.html#welcome",
+    "title": "Themis N. Efthimiou",
+    "section": "",
+    "text": "Hi, I’m Themis Nikolas Efthimiou, a researcher passionate about uncovering the fascinating complexities of human emotion, perception, and social interaction. My work sits at the intersection of neuroscience and psychology, exploring how we connect with others and experience the world."
+  },
+  {
+    "objectID": "content/index.html#about-me",
+    "href": "content/index.html#about-me",
+    "title": "Themis N. Efthimiou",
+    "section": "About Me",
+    "text": "About Me\nDuring my PhD at the University of Essex, I developed cutting-edge, non-invasive techniques for facial electrical stimulation, providing a new lens to examine how facial expressions shape emotional experiences. My research has helped refine the Facial Feedback Hypothesis, bridging theoretical models with practical applications in emotion science.\nCurrently, I’m at the University of Edinburgh, contributing to groundbreaking research on neurodiversity in social interactions. I study the unique ways autistic and non-autistic individuals engage with one another, blending behavioural science, advanced data analysis, and open science principles to understand and improve human connection.\nWhether developing innovative tools or rethinking traditional approaches, my research is driven by the belief that understanding emotion and social interaction has the power to enhance well-being and inclusivity."
+  },
+  {
+    "objectID": "content/index.html#research-interests",
+    "href": "content/index.html#research-interests",
+    "title": "Themis N. Efthimiou",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nThe Science Behind Emotion and Interaction\n\nEmotion Perception: How do we understand and feel the emotions of others?\nFacial Feedback Hypothesis: How does activating specific facial muscles influence our emotional state?\nMultimodal Sensory Integration: How do we process and combine information from sight, sound, and other senses?\nNeurodiversity in Social Interactions: How do autistic and non-autistic individuals navigate social relationships?"
+  },
+  {
+    "objectID": "content/index.html#explore-my-work",
+    "href": "content/index.html#explore-my-work",
+    "title": "Themis N. Efthimiou",
+    "section": "Explore My Work",
+    "text": "Explore My Work\nHere, you’ll find an overview of my academic journey, including my published work, ongoing projects, and future aspirations. My research is designed not only to advance scientific understanding but also to inform real-world applications, from enhancing social communication to developing tools for clinical use.\n\n\nLet’s Collaborate\nIf you’re curious about my work, have ideas for collaboration, or simply want to connect, feel free to explore my CV, check out my publications, or contact me directly at tefthimi@ed.ac.uk. Together, we can delve into the dynamic world of human emotion and interaction.\n\n\n\nBuilding Bridges Between Science and Society\nBy blending curiosity, innovation, and interdisciplinary collaboration, I aim to contribute to a more inclusive, emotionally aware world—one discovery at a time."
+  },
+  {
+    "objectID": "content/publications.html",
+    "href": "content/publications.html",
+    "title": "Themis N. Efthimiou",
+    "section": "",
+    "text": "Baker, J., Ngo, H-V., Efthimiou, T.N., Elsenaar, A., Mehu, M., & Korb, S. Probing the time-course of facial feedback effects on facial emotion recognition. Expected publication date: June 2025.\nEfthimiou, T.N., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, N., Lages, M., Fletcher-Watson, S., & Crompton, C.J.\nSocial motor synchrony and interactive rapport in autistic, non-autistic, and mixed neurotype dyads: A Stage 1 Registered Report. Autism. Stage 1 Principal Acceptance. Expected publication date: August 2025.\nEfthimiou, T.N., Ackerman, R., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, Fletcher-Watson, S., & Crompton, C.J.\nPartnered Perspectives: A Study of Interpersonal Communication Dynamics in Dyads with and without Autism.\nExpected publication date: May 2025.\nEfthimiou, T.N. & Crompton, C.J. Introducing ‘Duet’: An R package for the Analysis of Dyads. Expected publication date: May 2025.\nCrompton, C.J., Foster, S., Wilks, C., Dodd, M., Efthimiou, T.N., Ropar, D., Sasson, Lages, M., & Fletcher-Watson, S.\nInformation transfer within and between autistic and non-autistic people: Stage 2 Registered Report. Nature Human Behaviour. Expected publication date: May 2025.\n\n\n\nBaker, J., Efthimiou, T., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Computer-controlled electrical stimulation of facial muscles by facial neuromuscular electrical stimulation (fNMES): Hardware and software solutions. Journal of Neuroscience Methods, 411, 110266. https://doi.org/10.1016/j.jneumeth.2024.110266\n\nPDF Code\n\nEfthimiou, T . N., Baker, J., Elsenaar, A., Mehu, M., & Korb, S. (2024). Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology. Emotion. Advanced online publication. https://doi.org/10.1037/emo0001408.\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Clarke, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Zygomaticus activation through facial neuromuscular electrical stimulation (fNMES) induces happiness perception in ambiguous facial expressions and affects neural correlates of face processing. Social Cognitive and Affective Neuroscience, 19(1), nsae013. https://doi.org/10.1093/scan/nsae013\n\nPDF OSF\n\n\nEfthimiou, T.N., Hernandez, M.P., Elsenaar, A., Mehu, M. and Korb, S. Application of facial neuromuscular electrical stimulation (fNMES) in psychophysiological research: Practical recommendations based on a systematic review of the literature. Behav Res (2023). https://doi.org/10.3758/s13428-023-02262-7\n\nPDF Table ShinyApp\n\n\nBaker, J., Efthimiou, T., Scherer, R., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2023). Measurement of the N170 during facial neuromuscular electrical stimulation (fNMES). Journal of Neuroscience Methods, 109877.https://doi.org/10.1016/j.jneumeth.2023.109877\n\nPDF OSF\n\n\nEfthimiou, T.N., Hanel, P.H.P. & Korb, S. Volunteers’ concerns about facial neuromuscular electrical stimulation. BMC Psychol 10, 117 (2022). https://doi.org/10.1186/s40359-022-00827-3\n\nPDF OSF"
+  },
+  {
+    "objectID": "content/publications.html#in-preparation",
+    "href": "content/publications.html#in-preparation",
+    "title": "Themis N. Efthimiou",
+    "section": "",
+    "text": "Baker, J., Ngo, H-V., Efthimiou, T.N., Elsenaar, A., Mehu, M., & Korb, S. Probing the time-course of facial feedback effects on facial emotion recognition. Expected publication date: June 2025.\nEfthimiou, T.N., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, N., Lages, M., Fletcher-Watson, S., & Crompton, C.J.\nSocial motor synchrony and interactive rapport in autistic, non-autistic, and mixed neurotype dyads: A Stage 1 Registered Report. Autism. Stage 1 Principal Acceptance. Expected publication date: August 2025.\nEfthimiou, T.N., Ackerman, R., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, Fletcher-Watson, S., & Crompton, C.J.\nPartnered Perspectives: A Study of Interpersonal Communication Dynamics in Dyads with and without Autism.\nExpected publication date: May 2025.\nEfthimiou, T.N. & Crompton, C.J. Introducing ‘Duet’: An R package for the Analysis of Dyads. Expected publication date: May 2025.\nCrompton, C.J., Foster, S., Wilks, C., Dodd, M., Efthimiou, T.N., Ropar, D., Sasson, Lages, M., & Fletcher-Watson, S.\nInformation transfer within and between autistic and non-autistic people: Stage 2 Registered Report. Nature Human Behaviour. Expected publication date: May 2025."
+  },
+  {
+    "objectID": "content/publications.html#publications",
+    "href": "content/publications.html#publications",
+    "title": "Themis N. Efthimiou",
+    "section": "",
+    "text": "Baker, J., Efthimiou, T., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Computer-controlled electrical stimulation of facial muscles by facial neuromuscular electrical stimulation (fNMES): Hardware and software solutions. Journal of Neuroscience Methods, 411, 110266. https://doi.org/10.1016/j.jneumeth.2024.110266\n\nPDF Code\n\nEfthimiou, T . N., Baker, J., Elsenaar, A., Mehu, M., & Korb, S. (2024). Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology. Emotion. Advanced online publication. https://doi.org/10.1037/emo0001408.\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Clarke, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Zygomaticus activation through facial neuromuscular electrical stimulation (fNMES) induces happiness perception in ambiguous facial expressions and affects neural correlates of face processing. Social Cognitive and Affective Neuroscience, 19(1), nsae013. https://doi.org/10.1093/scan/nsae013\n\nPDF OSF\n\n\nEfthimiou, T.N., Hernandez, M.P., Elsenaar, A., Mehu, M. and Korb, S. Application of facial neuromuscular electrical stimulation (fNMES) in psychophysiological research: Practical recommendations based on a systematic review of the literature. Behav Res (2023). https://doi.org/10.3758/s13428-023-02262-7\n\nPDF Table ShinyApp\n\n\nBaker, J., Efthimiou, T., Scherer, R., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2023). Measurement of the N170 during facial neuromuscular electrical stimulation (fNMES). Journal of Neuroscience Methods, 109877.https://doi.org/10.1016/j.jneumeth.2023.109877\n\nPDF OSF\n\n\nEfthimiou, T.N., Hanel, P.H.P. & Korb, S. Volunteers’ concerns about facial neuromuscular electrical stimulation. BMC Psychol 10, 117 (2022). https://doi.org/10.1186/s40359-022-00827-3\n\nPDF OSF"
+  },
+  {
+    "objectID": "content/cv.html",
+    "href": "content/cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Welcome to my website. Below, you can find my CV outlining my professional experience, research contributions, and expertise. For inquiries, contact me at tefthimi@ed.ac.uk."
+  },
+  {
+    "objectID": "content/cv.html#areas-of-expertise-and-interest",
+    "href": "content/cv.html#areas-of-expertise-and-interest",
+    "title": "Curriculum Vitae",
+    "section": "Areas of Expertise and Interest",
+    "text": "Areas of Expertise and Interest\n\nSocial cognitive and affective neuroscience\nElectroencephalography (EEG)\nFacial expression production and processing\nBiological motion production and processing\nStatistical software: Matlab, JASP, R, Python\nFacial Electrical Stimulation\nOpen Science principles\nPeripheral physiology: HR, GSR"
+  },
+  {
+    "objectID": "content/cv.html#professional-profile",
+    "href": "content/cv.html#professional-profile",
+    "title": "Curriculum Vitae",
+    "section": "Professional Profile",
+    "text": "Professional Profile\nI am a methodological researcher with a PhD in Psychology from the University of Essex, specialising in social and cognitive neuroscience. My expertise integrates advanced quantitative methods, such as multilevel modelling and machine learning, with physiological and longitudinal data to investigate complex social interactions.\nCurrently, I am a postdoctoral researcher at the University of Edinburgh, where I study the influence of social context on interactions between autistic and non-autistic individuals as part of the Diversity in Social Intelligence Project. I focus on video-based analyses of non-verbal synchrony and the interplay between verbal and motor behaviours.\nI have developed facial neuromuscular electrical stimulation (fNMES) to study its effects on emotion perception, employing innovative methods like EEG and video analysis. I thrive in interdisciplinary teams, handle complex datasets, recruit participants, and create analytical tools. I am deeply committed to open science practices and collaborative research.\n\nBibliometrics (August 2023)\n\nCitations: 28 (Google Scholar)\nh-index: 4 (Google Scholar)\nPeer-reviewed publications: 5\nConference presentations: 5"
+  },
+  {
+    "objectID": "content/cv.html#research-experience",
+    "href": "content/cv.html#research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research Experience",
+    "text": "Research Experience\n\n Postdoctoral Researcher | University of Edinburgh (2024–Present)\n\nConducting research on social interactions between autistic and non-autistic adults.\nAnalysing non-verbal synchrony using advanced computer vision techniques.\nPromoting inclusivity and open science principles.\n\n\nKey Outcomes:\n\nRegistered Report under review (Autism).\nManuscript on multimodal gestures and relationships in preparation.\nDeveloped an R package for dyadic analysis.\n\n\n\n\n PhD Researcher | University of Essex (2020–2024)\n\nDeveloped facial electrical stimulation (FES) to engage specific facial muscles.\nConducted a systematic literature review and two experiments on emotion perception.\n\n\nKey Outcomes:\n\nFour peer-reviewed publications.\nPresentations at five international conferences.\nInnovated the use of FES in affective neuroscience research.\n\n\n\n\n Research Assistant Internship | Middlesex University Student Union (2016–2017)\n\nConducted research on topics like student housing policies.\nProduced actionable recommendations to improve student experiences."
+  },
+  {
+    "objectID": "content/cv.html#teaching-and-communication",
+    "href": "content/cv.html#teaching-and-communication",
+    "title": "Curriculum Vitae",
+    "section": "Teaching and Communication",
+    "text": "Teaching and Communication\n\n Graduate Laboratory Assistant | University of Essex (2020–2022)\n\nFacilitated workshops on statistics and research methods.\nSupported first-year psychology students with SPSS and statistical analysis.\n\n\n\n Student Learning Assistant (SLA) | Middlesex University (2016–2017)\n\nAssisted first-year psychology classes with research design and data analysis."
+  },
+  {
+    "objectID": "content/cv.html#other-work-experience",
+    "href": "content/cv.html#other-work-experience",
+    "title": "Curriculum Vitae",
+    "section": "Other Work Experience",
+    "text": "Other Work Experience\n\n Volunteer Peer Mentor | MIND, London (2015–2016)\n\nSupported young individuals to achieve goals outlined in personal action plans.\n\n\n\n Vice-President | Middlesex University Debating Society (2017–2019)\n\nHosted and organised debate tournaments and weekly debate sessions."
+  },
+  {
+    "objectID": "content/cv.html#education",
+    "href": "content/cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": " Education",
+    "text": "Education\n\nPhD in Psychology | University of Essex (2024)\nThesis: A spark of emotion: the impact of electrical facial muscle activation on emotional state and affective processing\nExaminers: Dr Gethin Hughes and Professor Beatriz Calvo Merino\nSupervisor: Dr Sebastian Korb\nPass with no corrections: 18th January 2024\nMSc in Cognitive Neuroscience | Middlesex University (2019)\nThesis: Attention Allocation During the Observation of Biological Motion: An EEG Study\nExaminers: Dr Emma Ward and Dr Nicholas Cooper\nSupervisors: Dr Alexander Jones and Dr Jonathan Silas\nPass with minor corrections: 18th December 2019\nBSc (Hons) in Psychology | Middlesex University (2018)\nDissertation: Exploring the Relationship Between Interoceptive Awareness and Embodied Cognition"
+  },
+  {
+    "objectID": "content/cv.html#research-and-technical-skills",
+    "href": "content/cv.html#research-and-technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Research and Technical Skills",
+    "text": "Research and Technical Skills\n\nProgramming: Proficient in R and Python for data processing, modelling, and machine learning.\nExperimental Design: Skilled with PsychoPy, Pavlovia, and Qualtrics for designing and conducting studies.\nVideo Analysis: Expertise in FaceReader, OpenFace, and OpenCV for automated video coding.\nPhysiological Methods: Familiar with EEG, HR, GSR, and FES."
+  },
+  {
+    "objectID": "content/cv.html#awards",
+    "href": "content/cv.html#awards",
+    "title": "Curriculum Vitae",
+    "section": "Awards",
+    "text": "Awards\n\nBest Presentation with Poster – MDX Research Student Summer Conference 2019\nMDX STEM Scholarship"
+  },
+  {
+    "objectID": "content/cv.html#conference-presentations",
+    "href": "content/cv.html#conference-presentations",
+    "title": "Curriculum Vitae",
+    "section": " Conference Presentations",
+    "text": "Conference Presentations\n\nPresented findings at international conferences, including ESCAN, IOP, and BNA.\n\n\nFor further details, feel free to explore my publications and ongoing projects. Download my CV (PDF)."
+  }
+]

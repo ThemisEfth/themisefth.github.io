@@ -1,0 +1,43 @@
+---
+about: 
+  template: marquee
+  image-shape: rectangle
+  image-width: 23.5em
+---
+
+## Welcome
+
+Hi, I’m Themis Nikolas Efthimiou, a researcher passionate about uncovering the fascinating complexities of human emotion, perception, and social interaction. My work sits at the intersection of neuroscience and psychology, exploring how we connect with others and experience the world.
+
+## About Me
+
+During my PhD at the University of Essex, I developed cutting-edge, non-invasive techniques for **facial electrical stimulation**, providing a new lens to examine how facial expressions shape emotional experiences. My research has helped refine the **Facial Feedback Hypothesis**, bridging theoretical models with practical applications in emotion science.
+
+Currently, I’m at the University of Edinburgh, contributing to groundbreaking research on **neurodiversity in social interactions**. I study the unique ways autistic and non-autistic individuals engage with one another, blending **behavioural science**, **advanced data analysis**, and **open science principles** to understand and improve human connection.
+
+Whether developing innovative tools or rethinking traditional approaches, my research is driven by the belief that understanding emotion and social interaction has the power to enhance well-being and inclusivity.
+
+## Research Interests
+
+### The Science Behind Emotion and Interaction
+
+-   **Emotion Perception**: How do we understand and feel the emotions of others?
+-   **Facial Feedback Hypothesis**: How does activating specific facial muscles influence our emotional state?
+-   **Multimodal Sensory Integration**: How do we process and combine information from sight, sound, and other senses?
+-   **Neurodiversity in Social Interactions**: How do autistic and non-autistic individuals navigate social relationships?
+
+## Explore My Work
+
+Here, you’ll find an overview of my academic journey, including my published work, ongoing projects, and future aspirations. My research is designed not only to advance scientific understanding but also to inform real-world applications, from enhancing social communication to developing tools for clinical use.
+
+------------------------------------------------------------------------
+
+### Let’s Collaborate
+
+If you’re curious about my work, have ideas for collaboration, or simply want to connect, feel free to explore my [CV](cv.qmd), check out my [publications](publications.qmd), or contact me directly at [tefthimi\@ed.ac.uk](mailto:tefthimi@ed.ac.uk). Together, we can delve into the dynamic world of human emotion and interaction.
+
+------------------------------------------------------------------------
+
+### Building Bridges Between Science and Society
+
+By blending curiosity, innovation, and interdisciplinary collaboration, I aim to contribute to a more inclusive, emotionally aware world—one discovery at a time.

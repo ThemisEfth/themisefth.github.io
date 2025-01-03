@@ -1,0 +1,23 @@
+---
+title: "Blog"
+listing: 
+  id: blog-listing
+  categories: true
+  feed: true
+  sort-ui: [date]
+  sort: "date desc"
+  contents:
+  - "blog-posts"
+  fields: [title, date, author, description, categories]
+  type: grid
+  grid-columns: 1
+  image-height: "12em"
+---
+
+Welcome to my blog
+
+If you like the blog, consider subscribing below to be notified whenever a new post comes out (it's free!).
+
+<iframe src="https://embeds.beehiiv.com/f3ffd81a-4723-4419-bb1d-afc8af3bac36?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;">
+
+</iframe>

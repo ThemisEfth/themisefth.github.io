@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Themis N. Efthimiou</title>
+<link>https://themisefth.com/content/blog.html</link>
+<atom:link href="https://themisefth.com/content/blog.xml" rel="self" type="application/rss+xml"/>
+<description>The official website of Themis N. Efthimiou, Postdoctoral Researcher at the University of Edinburgh, specialising in social and cognitive neuroscience.</description>
+<generator>quarto-1.5.55</generator>
+<lastBuildDate>Thu, 07 Sep 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Title</title>
+  <dc:creator>Themis N. Efthimiou</dc:creator>
+  <link>https://themisefth.com/content/blog-posts/blog_1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <category></category>
+  <guid>https://themisefth.com/content/blog-posts/blog_1.html</guid>
+  <pubDate>Thu, 07 Sep 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://themisefth.com/content/blog-posts/blog-image.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>
