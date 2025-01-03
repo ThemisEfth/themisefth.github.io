@@ -19,7 +19,7 @@ website:
 
   navbar:
     left:
-      - href: content/index.qmd
+      - href: index.qmd
         text: Home
       - href: content/blog.qmd
         text: Blog
