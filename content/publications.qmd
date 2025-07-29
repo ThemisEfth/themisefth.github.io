@@ -25,7 +25,7 @@ Baker, J., Ngo, H. V. V., **Efthimiou, T. N.**, Elsenaar, A., Mehu, M., & Korb, 
 
 :::: {.content-visible when-format="html"}
 ::: {.btn-group role="group" aria-label="Open Science Links"}
-[PDF](../materials/publications/COMPSYCH_2025.pdf) [Code](https://osf.io/7nf94/?view_only=9cef07a76c66462baa28c1d5b5918ded)
+[PDF](../materials/publications/COMPSYCH_2025.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [OSF](https://osf.io/7nf94/?view_only=9cef07a76c66462baa28c1d5b5918ded "Data File"){.btn-sm .btn .btn-primary}
 :::
 ::::
 
@@ -35,7 +35,7 @@ Crompton, C. J., Foster, S. J., Wilks, C. E. H., Dodd, M., **Efthimiou, T. N.**,
 
 :::: {.content-visible when-format="html"}
 ::: {.btn-group role="group" aria-label="Open Science Links"}
-[PDF](../materials/publications/NHB_2025.pdf) [Code](https://osf.io/us9c7/files/osfstorage)
+[PDF](../materials/publications/NHB_2025.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [OSF](https://osf.io/us9c7/files/osfstorage "Data File"){.btn-sm .btn .btn-primary}
 :::
 ::::
 
@@ -45,7 +45,7 @@ Crompton, C. J., Foster, S. J., Wilks, C. E. H., Dodd, M., **Efthimiou, T. N.**,
 
 :::: {.content-visible when-format="html"}
 ::: {.btn-group role="group" aria-label="Open Science Links"}
-[PDF](../materials/publications/AUTISM_2025.pdf) [Code](https://osf.io/eudmp/files/osfstorage)
+[PDF](../materials/publications/AUTISM_2025.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [OSF](https://osf.io/eudmp/files/osfstorage "Data File"){.btn-sm .btn .btn-primary}
 :::
 ::::
 
@@ -55,7 +55,7 @@ Baker, J., **Efthimiou, T.**, Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (20
 
 :::: {.content-visible when-format="html"}
 ::: {.btn-group role="group" aria-label="Open Science Links"}
-[PDF](../materials/publications/JNM_2024.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [Code](https://github.com/ThemisEfth/fNMES-Technical-Guide){.btn-sm .btn .btn-primary}
+[PDF](../materials/publications/JNM_2024.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [OSF](https://github.com/ThemisEfth/fNMES-Technical-Guide "Data File"){.btn-sm .btn .btn-primary}
 :::
 ::::
 

@@ -1,1 +1,35 @@
-/* css styles */
+/*-- scss:defaults --*/
+
+// 1. TYPOGRAPHY
+// Import a clean, professional sans-serif font from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+$font-family-sans-serif: "Lato", sans-serif;
+$headings-font-family: $font-family-sans-serif; // Use the same font for a cohesive, modern look
+$headings-font-weight: 700;
+
+
+// 2. COLOUR PALETTE
+// A professional palette based on deep blue, conveying trust and authority.
+$primary:    #34568B;  // A classic, strong blue
+$secondary:  #6c757d;  // Standard grey for secondary elements
+$body-bg:    #fdfdfd;  // A slightly off-white background, easier on the eyes
+$body-color: #343a40;  // A dark charcoal for body text for better readability
+$link-color: $primary;
+
+
+/*-- scss:rules --*/
+
+// 3. LAYOUT
+// Constrain the width of the main text body to improve readability,
+// just like a well-formatted report or brief.
+.main-container {
+  max-width: 900px !important;
+}
+
+// Add a subtle border to embedded images
+.quarto-figure-center img {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 5px;
+}

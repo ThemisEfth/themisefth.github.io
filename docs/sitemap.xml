@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://themisefth.com/content/blog.html</loc>
-    <lastmod>2025-01-03T09:42:49.169Z</lastmod>
+    <lastmod>2025-07-29T15:08:30.304Z</lastmod>
   </url>
   <url>
     <loc>https://themisefth.com/content/software.html</loc>
@@ -22,14 +22,18 @@
   </url>
   <url>
     <loc>https://themisefth.com/content/publications.html</loc>
-    <lastmod>2025-07-29T13:13:59.571Z</lastmod>
+    <lastmod>2025-07-29T14:36:46.334Z</lastmod>
   </url>
   <url>
     <loc>https://themisefth.com/content/cv.html</loc>
-    <lastmod>2025-07-29T13:56:55.143Z</lastmod>
+    <lastmod>2025-07-29T14:08:22.050Z</lastmod>
   </url>
   <url>
     <loc>https://themisefth.com/index.html</loc>
-    <lastmod>2025-07-28T14:35:46.742Z</lastmod>
+    <lastmod>2025-07-29T14:25:09.117Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themisefth.com/content/blogposts/from-spss-to-soldering-irons.html</loc>
+    <lastmod>2025-07-29T15:09:04.034Z</lastmod>
   </url>
 </urlset>

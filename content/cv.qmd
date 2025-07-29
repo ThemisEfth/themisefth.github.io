@@ -7,7 +7,7 @@ format:
     PrettyPDF-pdf: default
 ---
 
-Welcome to my website. Below, you can find my CV outlining my professional experience, research contributions, and expertise. For inquiries, contact me at [tefthimi\@ed.ac.uk](mailto:tefthimi@ed.ac.uk).
+Welcome to my website. Below, you can find my CV outlining my professional experience, research contributions, and expertise. For inquiries, contact me at [themiftw20\@gmail.com](themiftw20@gmail.com).
 
 ## Areas of Expertise and Interest
 

@@ -4,9 +4,7 @@ project:
 
 website:
   site-url: https://themisefth.com
-  description: "The official website of Themis N. Efthimiou, Postdoctoral Researcher at the University of Edinburgh, specialising in social and cognitive neuroscience."
-  page-footer: 
-    left: "Email me at themiefth@ed.ac.uk"
+  description: "The personal website of Themis N. Efthimiou, a quantitative researcher focused on applying data science to social and behavioural questions."
   title: "Themis N. Efthimiou"
   favicon: /favicon.ico
   
@@ -38,18 +36,25 @@ website:
         href: https://x.com/ThemisEfth
       - icon: square-fill
         href: https://bsky.app/profile/themisefth.bsky.social
-    background: primary
+    background: primary # This will use the primary colour defined in styles.scss
+
+  page-footer: 
+    left: "Contact: themiftw20@gmail.com"
+    center: "© 2025 Themis N. Efthimiou" # Added a copyright year
+    border: true
 
 format:
   html:
     theme: 
-      light: pulse
+      # Use the 'flatly' theme as a base and layer our custom SCSS file on top
+      light: [flatly, styles.scss]
       dark: darkly
-    css: styles.css
+    css: styles.css # Keep your original CSS for any specific overrides
     toc: true
     toc-depth: 2
     code-fold: false
     code-tools: false
     toggle: true 
     allow-html: true
+
 editor: visual

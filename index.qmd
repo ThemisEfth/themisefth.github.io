@@ -7,37 +7,49 @@ about:
 
 ## Welcome
 
-Hi, I’m Themis Nikolas Efthimiou, a researcher passionate about uncovering the fascinating complexities of human emotion, perception, and social interaction. My work sits at the intersection of neuroscience and psychology, exploring how we connect with others and experience the world.
+Hi, I’m Themis Nikolas Efthimiou, a quantitative researcher dedicated to addressing complex social and behavioural questions. My work involves applying rigorous statistical methods and innovative tools to translate complex human data into evidence-based insights for policy and strategy.
 
 ## About Me
 
-During my PhD at the University of Essex, I developed cutting-edge, non-invasive techniques for **facial electrical stimulation**, providing a new lens to examine how facial expressions shape emotional experiences. My research has helped refine the **Facial Feedback Hypothesis**, bridging theoretical models with practical applications in emotion science.
+My research journey has been focused on developing and applying quantitative methods to understand the nuances of human experience.
 
-Currently, I’m at the University of Edinburgh, contributing to groundbreaking research on **neurodiversity in social interactions**. I study the unique ways autistic and non-autistic individuals engage with one another, blending **behavioural science**, **advanced data analysis**, and **open science principles** to understand and improve human connection.
+During my PhD at the University of Essex, I specialised in experimental design and advanced statistical analysis. I managed a four-year research programme that involved directing randomised controlled trials (RCTs) and developing novel methodologies. This work provided robust empirical evidence to test and refine a foundational theory in emotion science.
 
-Whether developing innovative tools or rethinking traditional approaches, my research is driven by the belief that understanding emotion and social interaction has the power to enhance well-being and inclusivity.
+As a Postdoctoral Researcher at the University of Edinburgh, I focused on the dynamics of neurodiverse social interactions. I led end-to-end analysis projects on complex, multimodal datasets and engineered new data processing systems. To support the wider research community, I also developed and published `'duet'`, an R package on CRAN that enhances the transparency and reproducibility of social interaction research.
 
-## Research Interests
+Having completed my postdoctoral position, I am now seeking new opportunities where my analytical skills can contribute to evidence-based solutions in either an academic or applied setting.
 
-### The Science Behind Emotion and Interaction
+## Areas of Expertise
 
--   **Emotion Perception**: How do we understand and feel the emotions of others?
--   **Facial Feedback Hypothesis**: How does activating specific facial muscles influence our emotional state?
--   **Multimodal Sensory Integration**: How do we process and combine information from sight, sound, and other senses?
--   **Neurodiversity in Social Interactions**: How do autistic and non-autistic individuals navigate social relationships?
+My expertise spans research methodology, technical implementation, and deep domain knowledge.
 
-## Explore My Work
+#### Statistics & Research Methods
 
-Here, you’ll find an overview of my academic journey, including my published work, ongoing projects, and future aspirations. My research is designed not only to advance scientific understanding but also to inform real-world applications, from enhancing social communication to developing tools for clinical use.
+-   Mixed-Effects Modelling & Bayesian Analysis
+-   Randomised Controlled Trial (RCT) Design
+-   Experimental & Survey Design (Qualtrics, PsychoPy)
+-   Power Analysis & A/B Testing
+-   Qualitative Data Coding & Analysis
 
-------------------------------------------------------------------------
+#### Programming & Technology
 
-### Let’s Collaborate
+-   **R:** Expert (Tidyverse, `lme4`, Shiny, R Package Development)
+-   **Python:** Proficient (Pandas, NumPy, OpenCV, Scikit-learn)
+-   **Data Visualisation:** `ggplot2`, R-Shiny
+-   **Project Tools:** Git, Quarto, SQL
 
-If you’re curious about my work, have ideas for collaboration, or simply want to connect, feel free to explore my [CV](cv.qmd), check out my [publications](publications.qmd), or contact me directly at [tefthimi\@ed.ac.uk](mailto:tefthimi@ed.ac.uk). Together, we can delve into the dynamic world of human emotion and interaction.
+#### Domain Knowledge
 
-------------------------------------------------------------------------
+-   Behavioural Data Science
+-   Social Interaction & Neurodiversity
+-   Emotion Science & Human Perception
 
-### Building Bridges Between Science and Society
+## Projects & Portfolio
 
-By blending curiosity, innovation, and interdisciplinary collaboration, I aim to contribute to a more inclusive, emotionally aware world—one discovery at a time.
+Here you can find a portfolio of my work, including publications, software, and project reports. My research is designed not only to advance scientific understanding but also to build and validate tools with real-world applications.
+
+## Let's Connect
+
+I am open to discussing new opportunities, potential collaborations, or interesting projects that aim to make a positive impact. Please feel free to explore my CV, review my work on GitHub, or contact me directly at **themiftw20\@gmail.com**.
+
+### Bridging behavioural science and public good through data-driven research.

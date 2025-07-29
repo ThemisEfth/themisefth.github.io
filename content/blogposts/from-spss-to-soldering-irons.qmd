@@ -1,0 +1,15 @@
+---
+title: "From SPSS to Soldering Irons: My Journey into Multidisciplinary Research"
+description: "How leaving the comfort zone of psychology taught me that the most valuable breakthroughs happen at the intersection of different fields."
+author: "Themis N. Efthimiou"
+date: "2025-07-29"
+categories: [Methodology, Multidisciplinary Research, Personal Journey]
+---
+
+When I started in psychological research, my world was straightforward: run a simple experiment, collect some data, and plug it into SPSS for a neat ANOVA. Bob's your uncle, research done. The idea that I'd one day be discussing signal detection models, let alone wielding a soldering iron, was completely off my radar.
+
+But my PhD threw me into the deep end. The project began as an unlikely trio: two psychologists and a performance artist. Soon, our lab meetings felt less like a psychology working group and more like a United Nations of disciplines. An engineer joined to build our hardware, a computer scientist became my co-supervisor, and a data scientist co-authored our first paper. My most important new tool wasn't a software package, but the patient technician who taught me how to connect a cable without setting off the fire alarm.
+
+This collision of worlds was profoundly challenging. It meant learning to translate 'statistical power' into a language an artist could appreciate, and 'aesthetic integrity' into a concept an engineer could work with. I quickly realised that the most innovative solutions didn't come from any single field, but from the productive friction generated between them.
+
+My biggest takeaway was that true multidisciplinary research isn't just about borrowing tools. It’s a fundamental shift in perspective. It's recognising the limits of your own toolkit and having the humility to see a problem through someone else's eyes. I learned that the messy, often confusing, process of collaboration isn't a bug in the system—it's the feature that drives discovery.

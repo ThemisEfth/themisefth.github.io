@@ -48,5 +48,8 @@
   },
   "content/conferences.qmd": {
     "conferences.html": "611a9e7c"
+  },
+  "content/blogposts/from-spss-to-soldering-irons.qmd": {
+    "from-spss-to-soldering-irons.html": "d2ddc80d"
   }
 }
