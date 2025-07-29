@@ -13,21 +13,43 @@ sansfont: Asap
 
 ## <i class="fa-solid fa-file-lines"></i> In Preparation
 
-Baker, J., Ngo, H-V., **Efthimiou, T.N.**, Elsenaar, A., Mehu, M., & Korb, S. *Probing the time-course of facial feedback effects on facial emotion recognition.* Expected publication date: June 2025.
-
-**Efthimiou, T.N.**, Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, N., Lages, M., Fletcher-Watson, S., & Crompton, C.J.\
-*Social motor synchrony and interactive rapport in autistic, non-autistic, and mixed neurotype dyads: A Stage 1 Registered Report. Autism.* Stage 1 Principal Acceptance. Expected publication date: August 2025.
-
 **Efthimiou, T.N.**, Ackerman, R., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, Fletcher-Watson, S., & Crompton, C.J.\
 *Partnered Perspectives: A Study of Interpersonal Communication Dynamics in Dyads with and without Autism.*\
-Expected publication date: May 2025.
+Expected publication date: August 2025.
 
-Efthimiou, T.N. & Crompton, C.J. *Introducing 'Duet': An R package for the Analysis of Dyads.* Expected publication date: May 2025.
-
-Crompton, C.J., Foster, S., Wilks, C., Dodd, M., **Efthimiou, T.N.**, Ropar, D., Sasson, Lages, M., & Fletcher-Watson, S.\
-*Information transfer within and between autistic and non-autistic people: Stage 2 Registered Report. Nature Human Behaviour.* Expected publication date: May 2025.
+Efthimiou, T.N. & Crompton, C.J. *Introducing 'Duet': An R package for the Analysis of Dyads.* Expected publication date: December 2025.
 
 ## <i class="fa-solid fa-file-lines"></i> Publications
+
+Baker, J., Ngo, H. V. V., **Efthimiou, T. N.**, Elsenaar, A., Mehu, M., & Korb, S. (2025). Electrical stimulation of smiling muscles reduces visual processing load and enhances happiness perception in neutral faces. *Communications Psychology*, *3*(1), 94. <https://doi.org/10.1038/s44271-025-00281-y>
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/COMPSYCH_2025.pdf) [Code](https://osf.io/7nf94/?view_only=9cef07a76c66462baa28c1d5b5918ded)
+:::
+::::
+
+<hr width="10%">
+
+Crompton, C. J., Foster, S. J., Wilks, C. E. H., Dodd, M., **Efthimiou, T. N.**, Ropar, D., Sasson, N. J., Lages, M., & Fletcher-Watson, S. (2025). Information transfer within and between autistic and non-autistic people. *Nature Human Behaviour*. <https://doi.org/10.1038/s41562-025-02163-z>
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/NHB_2025.pdf) [Code](https://osf.io/us9c7/files/osfstorage)
+:::
+::::
+
+<hr width="10%">
+
+**Efthimiou, T. N.**, Wilks, C. E., Foster, S., Dodd, M., Sasson, N. J., Ropar, D., Lages, M., Fletcher-Watson, S., & Crompton, C. J. (2025). Social motor synchrony and interactive rapport in autistic, non-autistic, and mixed-neurotype dyads. *Autism*, *0*(0). <https://doi.org/10.1177/13623613251319585>
+
+:::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](../materials/publications/AUTISM_2025.pdf) [Code](https://osf.io/eudmp/files/osfstorage)
+:::
+::::
+
+<hr width="10%">
 
 Baker, J., **Efthimiou, T.**, Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Computer-controlled electrical stimulation of facial muscles by facial neuromuscular electrical stimulation (fNMES): Hardware and software solutions. *Journal of Neuroscience Methods*, *411*, 110266. <https://doi.org/10.1016/j.jneumeth.2024.110266>
 
@@ -36,6 +58,8 @@ Baker, J., **Efthimiou, T.**, Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (20
 [PDF](../materials/publications/JNM_2024.pdf "Data File"){.btn-sm .btn .btn-primary role="button" data-toggle="pdf"} [Code](https://github.com/ThemisEfth/fNMES-Technical-Guide){.btn-sm .btn .btn-primary}
 :::
 ::::
+
+<hr width="10%">
 
 **Efthimiou, T . N.**, Baker, J., Elsenaar, A., Mehu, M., & Korb, S. (2024). Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology. Emotion. Advanced online publication. <https://doi.org/10.1037/emo0001408.>
 
