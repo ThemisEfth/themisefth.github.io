@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://themisefth.com/content/blog.html</loc>
-    <lastmod>2025-07-29T15:08:30.304Z</lastmod>
+    <lastmod>2025-08-21T16:07:42.198Z</lastmod>
   </url>
   <url>
     <loc>https://themisefth.com/content/software.html</loc>
-    <lastmod>2024-12-28T18:24:54.060Z</lastmod>
+    <lastmod>2025-07-29T14:05:44.868Z</lastmod>
   </url>
   <url>
     <loc>https://themisefth.com/content/blog-posts/blog_1.html</loc>
@@ -35,5 +35,9 @@
   <url>
     <loc>https://themisefth.com/content/blogposts/from-spss-to-soldering-irons.html</loc>
     <lastmod>2025-07-29T15:09:04.034Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themisefth.com/content/blogposts/setting-up-r-enviroment.html</loc>
+    <lastmod>2025-08-21T16:04:14.948Z</lastmod>
   </url>
 </urlset>

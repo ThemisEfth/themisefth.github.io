@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Themis N. Efthimiou">
+<meta name="dcterms.date" content="2025-08-21">
+<meta name="description" content="Make your code accessible by setting up your R envuroment.">
 
-<title>Blog – Themis N. Efthimiou</title>
+<title>Setting Up Your R Environment for Reproducible Science – Themis N. Efthimiou</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,33 +23,66 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="..//favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e2debb40937e35a6723a4f0c7dfd9a2f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-cee1059407bb2987959afe2192d8ab92.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-e2debb40937e35a6723a4f0c7dfd9a2f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e2debb40937e35a6723a4f0c7dfd9a2f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-cee1059407bb2987959afe2192d8ab92.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-e2debb40937e35a6723a4f0c7dfd9a2f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,73 +110,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog-listing'] = new List('listing-blog-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Themis N. Efthimiou" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – Themis N. Efthimiou">
-<meta property="og:description" content="The personal website of Themis N. Efthimiou, a quantitative researcher focused on applying data science to social and behavioural questions.">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Setting Up Your R Environment for Reproducible Science – Themis N. Efthimiou">
+<meta property="og:description" content="Make your code accessible by setting up your R envuroment.">
 <meta property="og:site_name" content="Themis N. Efthimiou">
 <meta property="og:locale" content="en_UK">
-<meta name="twitter:title" content="Blog – Themis N. Efthimiou">
-<meta name="twitter:description" content="The personal website of Themis N. Efthimiou, a quantitative researcher focused on applying data science to social and behavioural questions.">
+<meta name="twitter:title" content="Setting Up Your R Environment for Reproducible Science – Themis N. Efthimiou">
+<meta name="twitter:description" content="Make your code accessible by setting up your R envuroment.">
 <meta name="twitter:image" content="https://themisefth.com/website_banner.png">
 <meta name="twitter:creator" content="@ThemisEfth">
 <meta name="twitter:card" content="summary_large_image">
@@ -315,7 +293,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Themis N. Efthimiou</span>
     </a>
   </div>
@@ -326,27 +304,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../content/blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../content/blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../content/publications.html"> 
+    <a class="nav-link" href="../../content/publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../content/cv.html"> 
+    <a class="nav-link" href="../../content/cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../content/software.html"> 
+    <a class="nav-link" href="../../content/software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../content/conferences.html"> 
+    <a class="nav-link" href="../../content/conferences.html"> 
 <span class="menu-text">Conferences</span></a>
   </li>  
 </ul>
@@ -378,23 +356,44 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TXVsdGlkaXNjaXBsaW5hcnklMjBSZXNlYXJjaA==">Multidisciplinary Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGVyc29uYWwlMjBKb3VybmV5">Personal Journey <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Setting Up Your R Environment for Reproducible Science</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Methodology</div>
+    <div class="quarto-category">R</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Make your code accessible by setting up your R envuroment.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Themis N. Efthimiou </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 21, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -404,94 +403,66 @@ window.Quarto = {
 </header>
 
 
-<p>Welcome to my blog</p>
-<p>If you like the blog, consider subscribing below to be notified whenever a new post comes out (it’s free!).</p>
-<iframe src="https://embeds.beehiiv.com/f3ffd81a-4723-4419-bb1d-afc8af3bac36?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;">
-</iframe>
+<p>I’ve recently had the pleasure of reviewing several excellent manuscripts where the authors have gone the extra mile, making their data and analysis code publicly available on platforms like the Open Science Framework (OSF). This commitment to open science is fantastic and a crucial step towards greater transparency in research. However, a common pitfall often prevents this good practice from being truly effective: the lack of a reproducible R environment.</p>
+<p>Many researchers, myself included at times, fall into the habit of using <code>setwd()</code> or relying on a specific local directory structure. While this works perfectly well for our own machines, it creates a significant roadblock for anyone trying to reproduce our work. When a reviewer, collaborator, or future researcher tries to run the code, it fails immediately because their file paths are different.</p>
+<p>Worse still, as I’ve seen in one particular case, leaving directory paths with your name or institutional information can inadvertently de-anonymise a submission during a blind peer-review process. This can compromise the integrity of the review and is an entirely avoidable issue.</p>
+<p>The solution is to set up your R project with parallel pathing, which makes your code portable and robust. The core idea is to rely on relative paths, not absolute ones. This means that your code will find files based on their location <em>relative to the project’s root folder</em>, rather than a fixed location on your hard drive.</p>
+<p>Here’s a simple, step-by-step guide to get you started:</p>
+<section id="step-1-use-rstudio-projects" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-use-rstudio-projects">Step 1: Use RStudio Projects</h4>
+<p>The easiest way to manage this is by using RStudio Projects. When you open a new project, RStudio creates an <code>.Rproj</code> file. This file tells R that the directory it resides in is the “root” of your project. All your scripts, data, and outputs should be organised within this project folder.</p>
+</section>
+<section id="step-2-avoid-setwd" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-avoid-setwd">Step 2: Avoid <code>setwd()</code></h4>
+<p>With an RStudio Project, you no longer need to use <code>setwd()</code>. RStudio automatically sets your working directory to the project’s root when you open it. This single change eliminates the primary source of irreproducibility.</p>
+</section>
+<section id="step-3-structuring-your-project" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-structuring-your-project">Step 3: Structuring Your Project</h4>
+<p>A common and effective project structure looks something like this:</p>
+<pre><code>MyProject/
+├── data/
+│   ├── raw_data.csv
+│   └── cleaned_data.csv
+├── scripts/
+│   ├── 01_data_cleaning.R
+│   └── 02_analysis.R
+├── outputs/
+│   └── my_plot.png
+├── README.md
+└── MyProject.Rproj</code></pre>
+</section>
+<section id="step-4-choose-your-pathing-method" class="level4">
+<h4 class="anchored" data-anchor-id="step-4-choose-your-pathing-method">Step 4: Choose Your Pathing Method</h4>
+<p>You now have two primary methods for referencing files reproducibly. Both are better than <code>setwd()</code>, but each has its own pros and cons.</p>
+<section id="method-1-the-here-package-recommended" class="level5">
+<h5 class="anchored" data-anchor-id="method-1-the-here-package-recommended">Method 1: The <code>here</code> Package (Recommended)</h5>
+<p>To make things truly bulletproof, I highly recommend using the <code>here</code> package. The <code>here()</code> function intelligently builds file paths starting from the root of your project, regardless of where your current R script is located.</p>
+<p>Instead of writing:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This is a bad idea</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"C:/Users/YourName/Documents/MyProject/data/raw_data.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Or even:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This might break if the script is moved</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/raw_data.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You can write:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The reproducible way</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"raw_data.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The <code>here()</code> function combines the folder names into a correct file path for your operating system, ensuring that the code will work seamlessly for anyone, anywhere, who has the project folder downloaded. My rationale for recommending this approach is that it is the most robust and least prone to error, especially as projects grow in complexity.</p>
+</section>
+<section id="method-2-relative-paths-with-.." class="level5">
+<h5 class="anchored" data-anchor-id="method-2-relative-paths-with-..">Method 2: Relative Paths with <code>../</code></h5>
+<p>An alternative, which doesn’t require an additional package, is to use standard relative pathing. The <code>../</code> syntax means “move up one directory level”. If your script is in the <code>scripts</code> folder and you want to access a file in the <code>data</code> folder, you can go up a level to the project root and then down into the <code>data</code> folder.</p>
+<p>For example, a script in <code>scripts/</code> could access data with this code:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The relative pathing way</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../data/raw_data.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This method is simple and effective for many projects. However, a key caveat is that if you move the script to a different location within your project (e.g., to a new subdirectory <code>scripts/analysis/</code>), this path will break because the relative relationship has changed. This is why the <code>here</code> package is often a more reliable choice, as it always builds paths from the project root.</p>
+<p>By adopting one of these practices, you ensure that your code is not just available, but truly reproducible. You remove a significant barrier for those trying to understand and build upon your work, and you protect yourself from accidental deanonymisation during the review process. It’s a small change that makes a big difference for the entire research community.</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-blog-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-blog-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-blog-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-</div>
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="TWV0aG9kb2xvZ3klMkNS" data-listing-date-sort="1755730800000" data-listing-file-modified-sort="1755792459612" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="835">
-<a href="../content/blogposts/setting-up-r-enviroment.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 12em;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Setting Up Your R Environment for Reproducible Science
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWV0aG9kb2xvZ3k='); return false;">Methodology</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Make your code accessible by setting up your R enviroment.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Themis N. Efthimiou
-</div>
-<div class="listing-date">
-Aug 21, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TWV0aG9kb2xvZ3klMkNNdWx0aWRpc2NpcGxpbmFyeSUyMFJlc2VhcmNoJTJDUGVyc29uYWwlMjBKb3VybmV5" data-listing-date-sort="1753743600000" data-listing-file-modified-sort="1753801744034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
-<a href="../content/blogposts/from-spss-to-soldering-irons.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 12em;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-From SPSS to Soldering Irons: My Journey into Multidisciplinary Research
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWV0aG9kb2xvZ3k='); return false;">Methodology</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TXVsdGlkaXNjaXBsaW5hcnklMjBSZXNlYXJjaA=='); return false;">Multidisciplinary Research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGVyc29uYWwlMjBKb3VybmV5'); return false;">Personal Journey</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>How leaving the comfort zone of psychology taught me that the most valuable breakthroughs happen at the intersection of different fields.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Themis N. Efthimiou
-</div>
-<div class="listing-date">
-Jul 29, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

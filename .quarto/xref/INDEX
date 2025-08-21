@@ -51,5 +51,8 @@
   },
   "content/blogposts/from-spss-to-soldering-irons.qmd": {
     "from-spss-to-soldering-irons.html": "d2ddc80d"
+  },
+  "content/blogposts/setting-up-r-enviroment.qmd": {
+    "setting-up-r-enviroment.html": "d440674b"
   }
 }

@@ -10,6 +10,143 @@
 <atom:link href="https://themisefth.com/content/blog.xml" rel="self" type="application/rss+xml"/>
 <description>The personal website of Themis N. Efthimiou, a quantitative researcher focused on applying data science to social and behavioural questions.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 29 Jul 2025 15:07:21 GMT</lastBuildDate>
+<lastBuildDate>Wed, 20 Aug 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Setting Up Your R Environment for Reproducible Science</title>
+  <dc:creator>Themis N. Efthimiou</dc:creator>
+  <link>https://themisefth.com/content/blogposts/setting-up-r-enviroment.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’ve recently had the pleasure of reviewing several excellent manuscripts where the authors have gone the extra mile, making their data and analysis code publicly available on platforms like the Open Science Framework (OSF). This commitment to open science is fantastic and a crucial step towards greater transparency in research. However, a common pitfall often prevents this good practice from being truly effective: the lack of a reproducible R environment.</p>
+<p>Many researchers, myself included at times, fall into the habit of using <code>setwd()</code> or relying on a specific local directory structure. While this works perfectly well for our own machines, it creates a significant roadblock for anyone trying to reproduce our work. When a reviewer, collaborator, or future researcher tries to run the code, it fails immediately because their file paths are different.</p>
+<p>Worse still, as I’ve seen in one particular case, leaving directory paths with your name or institutional information can inadvertently de-anonymise a submission during a blind peer-review process. This can compromise the integrity of the review and is an entirely avoidable issue.</p>
+<p>The solution is to set up your R project with parallel pathing, which makes your code portable and robust. The core idea is to rely on relative paths, not absolute ones. This means that your code will find files based on their location <em>relative to the project’s root folder</em>, rather than a fixed location on your hard drive.</p>
+<p>Here’s a simple, step-by-step guide to get you started:</p>
+<section id="step-1-use-rstudio-projects" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-use-rstudio-projects">Step 1: Use RStudio Projects</h4>
+<p>The easiest way to manage this is by using RStudio Projects. When you open a new project, RStudio creates an <code>.Rproj</code> file. This file tells R that the directory it resides in is the “root” of your project. All your scripts, data, and outputs should be organised within this project folder.</p>
+</section>
+<section id="step-2-avoid-setwd" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-avoid-setwd">Step 2: Avoid <code>setwd()</code></h4>
+<p>With an RStudio Project, you no longer need to use <code>setwd()</code>. RStudio automatically sets your working directory to the project’s root when you open it. This single change eliminates the primary source of irreproducibility.</p>
+</section>
+<section id="step-3-structuring-your-project" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-structuring-your-project">Step 3: Structuring Your Project</h4>
+<p>A common and effective project structure looks something like this:</p>
+<pre><code>MyProject/
+├── data/
+│   ├── raw_data.csv
+│   └── cleaned_data.csv
+├── scripts/
+│   ├── 01_data_cleaning.R
+│   └── 02_analysis.R
+├── outputs/
+│   └── my_plot.png
+├── README.md
+└── MyProject.Rproj</code></pre>
+</section>
+<section id="step-4-choose-your-pathing-method" class="level4">
+<h4 class="anchored" data-anchor-id="step-4-choose-your-pathing-method">Step 4: Choose Your Pathing Method</h4>
+<p>You now have two primary methods for referencing files reproducibly. Both are better than <code>setwd()</code>, but each has its own pros and cons.</p>
+<section id="method-1-the-here-package-recommended" class="level5">
+<h5 class="anchored" data-anchor-id="method-1-the-here-package-recommended">Method 1: The <code>here</code> Package (Recommended)</h5>
+<p>To make things truly bulletproof, I highly recommend using the <code>here</code> package. The <code>here()</code> function intelligently builds file paths starting from the root of your project, regardless of where your current R script is located.</p>
+<p>Instead of writing:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># This is a bad idea</span></span>
+<span id="cb2-2">data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"C:/Users/YourName/Documents/MyProject/data/raw_data.csv"</span>)</span></code></pre></div>
+<p>Or even:</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># This might break if the script is moved</span></span>
+<span id="cb3-2">data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"data/raw_data.csv"</span>)</span></code></pre></div>
+<p>You can write:</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># The reproducible way</span></span>
+<span id="cb4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(here)</span>
+<span id="cb4-3">data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">here</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"data"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"raw_data.csv"</span>))</span></code></pre></div>
+<p>The <code>here()</code> function combines the folder names into a correct file path for your operating system, ensuring that the code will work seamlessly for anyone, anywhere, who has the project folder downloaded. My rationale for recommending this approach is that it is the most robust and least prone to error, especially as projects grow in complexity.</p>
+</section>
+<section id="method-2-relative-paths-with-.." class="level5">
+<h5 class="anchored" data-anchor-id="method-2-relative-paths-with-..">Method 2: Relative Paths with <code>../</code></h5>
+<p>An alternative, which doesn’t require an additional package, is to use standard relative pathing. The <code>../</code> syntax means “move up one directory level”. If your script is in the <code>scripts</code> folder and you want to access a file in the <code>data</code> folder, you can go up a level to the project root and then down into the <code>data</code> folder.</p>
+<p>For example, a script in <code>scripts/</code> could access data with this code:</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># The relative pathing way</span></span>
+<span id="cb5-2">data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"../data/raw_data.csv"</span>)</span></code></pre></div>
+<p>This method is simple and effective for many projects. However, a key caveat is that if you move the script to a different location within your project (e.g., to a new subdirectory <code>scripts/analysis/</code>), this path will break because the relative relationship has changed. This is why the <code>here</code> package is often a more reliable choice, as it always builds paths from the project root.</p>
+<p>By adopting one of these practices, you ensure that your code is not just available, but truly reproducible. You remove a significant barrier for those trying to understand and build upon your work, and you protect yourself from accidental deanonymisation during the review process. It’s a small change that makes a big difference for the entire research community.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Methodology</category>
+  <category>R</category>
+  <guid>https://themisefth.com/content/blogposts/setting-up-r-enviroment.html</guid>
+  <pubDate>Wed, 20 Aug 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>From SPSS to Soldering Irons: My Journey into Multidisciplinary Research</title>
+  <dc:creator>Themis N. Efthimiou</dc:creator>
+  <link>https://themisefth.com/content/blogposts/from-spss-to-soldering-irons.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>When I started in psychological research, my world was straightforward: run a simple experiment, collect some data, and plug it into SPSS for a neat ANOVA. Bob’s your uncle, research done. The idea that I’d one day be discussing signal detection models, let alone wielding a soldering iron, was completely off my radar.</p>
+<p>But my PhD threw me into the deep end. The project began as an unlikely trio: two psychologists and a performance artist. Soon, our lab meetings felt less like a psychology working group and more like a United Nations of disciplines. An engineer joined to build our hardware, a computer scientist became my co-supervisor, and a data scientist co-authored our first paper. My most important new tool wasn’t a software package, but the patient technician who taught me how to connect a cable without setting off the fire alarm.</p>
+<p>This collision of worlds was profoundly challenging. It meant learning to translate ‘statistical power’ into a language an artist could appreciate, and ‘aesthetic integrity’ into a concept an engineer could work with. I quickly realised that the most innovative solutions didn’t come from any single field, but from the productive friction generated between them.</p>
+<p>My biggest takeaway was that true multidisciplinary research isn’t just about borrowing tools. It’s a fundamental shift in perspective. It’s recognising the limits of your own toolkit and having the humility to see a problem through someone else’s eyes. I learned that the messy, often confusing, process of collaboration isn’t a bug in the system—it’s the feature that drives discovery.</p>
+
+
+
+ ]]></description>
+  <category>Methodology</category>
+  <category>Multidisciplinary Research</category>
+  <category>Personal Journey</category>
+  <guid>https://themisefth.com/content/blogposts/from-spss-to-soldering-irons.html</guid>
+  <pubDate>Mon, 28 Jul 2025 23:00:00 GMT</pubDate>
+</item>
 </channel>
 </rss>

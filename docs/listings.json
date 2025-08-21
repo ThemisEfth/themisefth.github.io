@@ -2,6 +2,7 @@
   {
     "listing": "/content/blog.html",
     "items": [
+      "/content/blogposts/setting-up-r-enviroment.html",
       "/content/blogposts/from-spss-to-soldering-irons.html"
     ]
   }
