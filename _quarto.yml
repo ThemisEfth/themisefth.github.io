@@ -36,20 +36,19 @@ website:
         href: https://x.com/ThemisEfth
       - icon: square-fill
         href: https://bsky.app/profile/themisefth.bsky.social
-    background: primary # This will use the primary colour defined in styles.scss
+    background: primary 
 
   page-footer: 
     left: "Contact: themiftw20@gmail.com"
-    center: "© 2025 Themis N. Efthimiou" # Added a copyright year
+    center: "© 2025 Themis N. Efthimiou" 
     border: true
 
 format:
   html:
     theme: 
-      # Use the 'flatly' theme as a base and layer our custom SCSS file on top
       light: [flatly, styles.scss]
       dark: darkly
-    css: styles.css # Keep your original CSS for any specific overrides
+    css: styles.css 
     toc: true
     toc-depth: 2
     code-fold: false
