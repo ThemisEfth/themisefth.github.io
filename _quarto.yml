@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  site-url: https://themisefth.com
+  site-url: https://themisefth.github.io/
   description: "The personal website of Themis N. Efthimiou, a quantitative researcher focused on applying data science to social and behavioural questions."
   title: "Themis N. Efthimiou"
   favicon: /favicon.ico
