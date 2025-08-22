@@ -6,25 +6,26 @@
       version="2.0">
 <channel>
 <title>Themis N. Efthimiou</title>
-<link>https://themisefth.com/content/blog.html</link>
-<atom:link href="https://themisefth.com/content/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://themisefth.github.io/content/blog.html</link>
+<atom:link href="https://themisefth.github.io/content/blog.xml" rel="self" type="application/rss+xml"/>
 <description>The personal website of Themis N. Efthimiou, a quantitative researcher focused on applying data science to social and behavioural questions.</description>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Wed, 20 Aug 2025 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Setting Up Your R Environment for Reproducible Science</title>
   <dc:creator>Themis N. Efthimiou</dc:creator>
-  <link>https://themisefth.com/content/blogposts/setting-up-r-enviroment.html</link>
+  <link>https://themisefth.github.io/content/blogposts/setting-up-r-enviroment.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>I’ve recently had the pleasure of reviewing several excellent manuscripts where the authors have gone the extra mile, making their data and analysis code publicly available on platforms like the Open Science Framework (OSF). This commitment to open science is fantastic and a crucial step towards greater transparency in research. However, a common pitfall often prevents this good practice from being truly effective: the lack of a reproducible R environment.</p>
+<p>I’ve recently had the pleasure of reviewing several excellent manuscripts where the authors have gone the extra mile, making their data and analysis code publicly available on platforms like the Open Science Framework. This commitment to open science is fantastic and a crucial step towards greater transparency in research. However, a common pitfall often prevents this good practice from being truly effective: the lack of a reproducible R environment.</p>
 <p>Many researchers, myself included at times, fall into the habit of using <code>setwd()</code> or relying on a specific local directory structure. While this works perfectly well for our own machines, it creates a significant roadblock for anyone trying to reproduce our work. When a reviewer, collaborator, or future researcher tries to run the code, it fails immediately because their file paths are different.</p>
 <p>Worse still, as I’ve seen in one particular case, leaving directory paths with your name or institutional information can inadvertently de-anonymise a submission during a blind peer-review process. This can compromise the integrity of the review and is an entirely avoidable issue.</p>
-<p>The solution is to set up your R project with parallel pathing, which makes your code portable and robust. The core idea is to rely on relative paths, not absolute ones. This means that your code will find files based on their location <em>relative to the project’s root folder</em>, rather than a fixed location on your hard drive.</p>
+<p>If you’re still not convinced, consider this: reproducible code makes your own life easier. It will significantly reduce the headaches if you ever need to switch between Windows and macOS. This is because Windows uses backslashes () for file paths, while macOS and Linux use forward slashes (/). A path copied from Windows Explorer will break on another system. By using methods like the here() package or relative paths, your code uses the universal forward slash, automatically resolving these dreaded back-slash issues. Making your code portable and functional “out of the box” doesn’t just save your collaborators from troubleshooting—it ensures your future self won’t have to either.</p>
+<p>With that laundry list of reasons I thought I’d share how I started working, but you can also watch this useful video if a demonstration is better (https://youtu.be/StqDYjM6ULo?si=lCGSFP7NREf7lZdN). This rest of this post will explain how to set up your R project with parallel pathing, which makes your code portable and robust. The core idea is to rely on relative paths, not absolute ones. This means that your code will find files based on their location <em>relative to the project’s root folder</em>, rather than a fixed location on your hard drive.</p>
 <p>Here’s a simple, step-by-step guide to get you started:</p>
 <section id="step-1-use-rstudio-projects" class="level4">
 <h4 class="anchored" data-anchor-id="step-1-use-rstudio-projects">Step 1: Use RStudio Projects</h4>
@@ -121,13 +122,13 @@ font-style: inherit;">"../data/raw_data.csv"</span>)</span></code></pre></div>
  ]]></description>
   <category>Methodology</category>
   <category>R</category>
-  <guid>https://themisefth.com/content/blogposts/setting-up-r-enviroment.html</guid>
+  <guid>https://themisefth.github.io/content/blogposts/setting-up-r-enviroment.html</guid>
   <pubDate>Wed, 20 Aug 2025 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>From SPSS to Soldering Irons: My Journey into Multidisciplinary Research</title>
   <dc:creator>Themis N. Efthimiou</dc:creator>
-  <link>https://themisefth.com/content/blogposts/from-spss-to-soldering-irons.html</link>
+  <link>https://themisefth.github.io/content/blogposts/from-spss-to-soldering-irons.html</link>
   <description><![CDATA[ 
 
 
@@ -145,7 +146,7 @@ font-style: inherit;">"../data/raw_data.csv"</span>)</span></code></pre></div>
   <category>Methodology</category>
   <category>Multidisciplinary Research</category>
   <category>Personal Journey</category>
-  <guid>https://themisefth.com/content/blogposts/from-spss-to-soldering-irons.html</guid>
+  <guid>https://themisefth.github.io/content/blogposts/from-spss-to-soldering-irons.html</guid>
   <pubDate>Mon, 28 Jul 2025 23:00:00 GMT</pubDate>
 </item>
 </channel>

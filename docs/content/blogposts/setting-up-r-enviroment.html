@@ -8,7 +8,7 @@
 
 <meta name="author" content="Themis N. Efthimiou">
 <meta name="dcterms.date" content="2025-08-21">
-<meta name="description" content="Make your code accessible by setting up your R envuroment.">
+<meta name="description" content="This blog post explains how to make your R code reproducible by avoiding absolute file paths and the setwd() function. It advocates for using RStudio Projects and relative paths, recommending the here package for robustly building file paths from the project root.">
 
 <title>Setting Up Your R Environment for Reproducible Science – Themis N. Efthimiou</title>
 <style>
@@ -114,12 +114,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Setting Up Your R Environment for Reproducible Science – Themis N. Efthimiou">
-<meta property="og:description" content="Make your code accessible by setting up your R envuroment.">
+<meta property="og:description" content="This blog post explains how to make your R code reproducible by avoiding absolute file paths and the setwd() function. It advocates for using RStudio Projects and relative paths, recommending the here package for robustly building file paths from the project root.">
 <meta property="og:site_name" content="Themis N. Efthimiou">
 <meta property="og:locale" content="en_UK">
 <meta name="twitter:title" content="Setting Up Your R Environment for Reproducible Science – Themis N. Efthimiou">
-<meta name="twitter:description" content="Make your code accessible by setting up your R envuroment.">
-<meta name="twitter:image" content="https://themisefth.com/website_banner.png">
+<meta name="twitter:description" content="This blog post explains how to make your R code reproducible by avoiding absolute file paths and the setwd() function. It advocates for using RStudio Projects and relative paths, recommending the here package for robustly building file paths from the project root.">
+<meta name="twitter:image" content="https://themisefth.github.io//website_banner.png">
 <meta name="twitter:creator" content="@ThemisEfth">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -374,7 +374,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div>
   <div class="description">
-    Make your code accessible by setting up your R envuroment.
+    This blog post explains how to make your R code reproducible by avoiding absolute file paths and the setwd() function. It advocates for using RStudio Projects and relative paths, recommending the here package for robustly building file paths from the project root.
   </div>
 </div>
 
@@ -403,10 +403,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>I’ve recently had the pleasure of reviewing several excellent manuscripts where the authors have gone the extra mile, making their data and analysis code publicly available on platforms like the Open Science Framework (OSF). This commitment to open science is fantastic and a crucial step towards greater transparency in research. However, a common pitfall often prevents this good practice from being truly effective: the lack of a reproducible R environment.</p>
+<p>I’ve recently had the pleasure of reviewing several excellent manuscripts where the authors have gone the extra mile, making their data and analysis code publicly available on platforms like the Open Science Framework. This commitment to open science is fantastic and a crucial step towards greater transparency in research. However, a common pitfall often prevents this good practice from being truly effective: the lack of a reproducible R environment.</p>
 <p>Many researchers, myself included at times, fall into the habit of using <code>setwd()</code> or relying on a specific local directory structure. While this works perfectly well for our own machines, it creates a significant roadblock for anyone trying to reproduce our work. When a reviewer, collaborator, or future researcher tries to run the code, it fails immediately because their file paths are different.</p>
 <p>Worse still, as I’ve seen in one particular case, leaving directory paths with your name or institutional information can inadvertently de-anonymise a submission during a blind peer-review process. This can compromise the integrity of the review and is an entirely avoidable issue.</p>
-<p>The solution is to set up your R project with parallel pathing, which makes your code portable and robust. The core idea is to rely on relative paths, not absolute ones. This means that your code will find files based on their location <em>relative to the project’s root folder</em>, rather than a fixed location on your hard drive.</p>
+<p>If you’re still not convinced, consider this: reproducible code makes your own life easier. It will significantly reduce the headaches if you ever need to switch between Windows and macOS. This is because Windows uses backslashes () for file paths, while macOS and Linux use forward slashes (/). A path copied from Windows Explorer will break on another system. By using methods like the here() package or relative paths, your code uses the universal forward slash, automatically resolving these dreaded back-slash issues. Making your code portable and functional “out of the box” doesn’t just save your collaborators from troubleshooting—it ensures your future self won’t have to either.</p>
+<p>With that laundry list of reasons I thought I’d share how I started working, but you can also watch this useful video if a demonstration is better (https://youtu.be/StqDYjM6ULo?si=lCGSFP7NREf7lZdN). This rest of this post will explain how to set up your R project with parallel pathing, which makes your code portable and robust. The core idea is to rely on relative paths, not absolute ones. This means that your code will find files based on their location <em>relative to the project’s root folder</em>, rather than a fixed location on your hard drive.</p>
 <p>Here’s a simple, step-by-step guide to get you started:</p>
 <section id="step-1-use-rstudio-projects" class="level4">
 <h4 class="anchored" data-anchor-id="step-1-use-rstudio-projects">Step 1: Use RStudio Projects</h4>
@@ -548,7 +549,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/themisefth\.com");
+        var filterRegex = new RegExp("https:\/\/themisefth\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

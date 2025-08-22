@@ -1,43 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://themisefth.com/content/blog.html</loc>
-    <lastmod>2025-08-21T16:13:55.261Z</lastmod>
+    <loc>https://themisefth.github.io/index.html</loc>
+    <lastmod>2025-08-21T16:15:25.213Z</lastmod>
   </url>
   <url>
-    <loc>https://themisefth.com/content/software.html</loc>
-    <lastmod>2025-07-29T14:05:44.868Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themisefth.com/content/blog-posts/blog_1.html</loc>
-    <lastmod>2024-12-28T18:24:54.057Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themisefth.com/content/conferences.html</loc>
-    <lastmod>2025-07-29T13:56:37.868Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themisefth.com/content/index.html</loc>
-    <lastmod>2025-01-03T09:37:25.987Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themisefth.com/content/publications.html</loc>
-    <lastmod>2025-07-29T14:36:46.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themisefth.com/content/cv.html</loc>
+    <loc>https://themisefth.github.io/content/cv.html</loc>
     <lastmod>2025-07-29T14:08:22.050Z</lastmod>
   </url>
   <url>
-    <loc>https://themisefth.com/index.html</loc>
-    <lastmod>2025-07-29T14:25:09.117Z</lastmod>
+    <loc>https://themisefth.github.io/content/publications.html</loc>
+    <lastmod>2025-07-29T14:36:46.334Z</lastmod>
   </url>
   <url>
-    <loc>https://themisefth.com/content/blogposts/from-spss-to-soldering-irons.html</loc>
+    <loc>https://themisefth.github.io/content/blogposts/from-spss-to-soldering-irons.html</loc>
     <lastmod>2025-07-29T15:09:04.034Z</lastmod>
   </url>
   <url>
-    <loc>https://themisefth.com/content/blogposts/setting-up-r-enviroment.html</loc>
-    <lastmod>2025-08-21T16:04:14.948Z</lastmod>
+    <loc>https://themisefth.github.io/content/blogposts/setting-up-r-enviroment.html</loc>
+    <lastmod>2025-08-22T11:08:14.713Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themisefth.github.io/content/conferences.html</loc>
+    <lastmod>2025-07-29T13:56:37.868Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themisefth.github.io/content/software.html</loc>
+    <lastmod>2025-07-29T14:05:44.868Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themisefth.github.io/content/blog.html</loc>
+    <lastmod>2025-08-21T16:13:55.261Z</lastmod>
   </url>
 </urlset>

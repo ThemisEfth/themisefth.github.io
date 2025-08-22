@@ -1,7 +1,6 @@
 {
   "listingMap": {
     "content/blog.qmd": [
-      "blog-posts",
       "blogposts"
     ]
   }

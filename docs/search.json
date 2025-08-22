@@ -1,150 +1,45 @@
 [
   {
-    "objectID": "content/blog.html",
-    "href": "content/blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Welcome to my blog\nIf you like the blog, consider subscribing below to be notified whenever a new post comes out (it’s free!).\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\n\n\n\n\nSetting Up Your R Environment for Reproducible Science\n\n\n\nMethodology\n\nR\n\n\n\nMake your code accessible by setting up your R enviroment.\n\n\n\nThemis N. Efthimiou\n\n\nAug 21, 2025\n\n\n\n\n\n\n\n\n\n\n\nFrom SPSS to Soldering Irons: My Journey into Multidisciplinary Research\n\n\n\nMethodology\n\nMultidisciplinary Research\n\nPersonal Journey\n\n\n\nHow leaving the comfort zone of psychology taught me that the most valuable breakthroughs happen at the intersection of different fields.\n\n\n\nThemis N. Efthimiou\n\n\nJul 29, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/software.html",
-    "href": "content/software.html",
-    "title": "Software and Tools",
-    "section": "",
-    "text": "I develop software tools to support data analysis and experimental research in social and cognitive neuroscience. Below is a list of my contributions, including R packages and other utilities that aim to make complex analyses more accessible and reproducible."
-  },
-  {
-    "objectID": "content/software.html#r-packages",
-    "href": "content/software.html#r-packages",
-    "title": "Software and Tools",
-    "section": "R Packages",
-    "text": "R Packages\n\nDuet\n\nDescription: An R package for analysing dyadic interactions, focusing on pre-processing, stimuli generation, and, movement kinematics. Designed to handle complex nested data structures and provide user-friendly interfaces for visualisation.\nKey Features:\n\nVisualisation of interaction dynamics\nFunctions for mixed-effects modelling of dyadic data\n\nRepository: GitHub Repository\nDocumentation: Package Documentation"
-  },
-  {
-    "objectID": "content/software.html#experimental-design-tools",
-    "href": "content/software.html#experimental-design-tools",
-    "title": "Software and Tools",
-    "section": "Experimental Design Tools",
-    "text": "Experimental Design Tools\n\nFacial Electrical Stimulation Framework\n\nDescription: A Python-based framework for real-time control and analysis of facial electrical stimulation (FES) experiments. It integrates with hardware and software to facilitate high-precision studies on emotion perception and facial feedback.\nKey Features:\n\nHardware integration for Arduino controlled electrical stimulators\nCompatibility with MATLAB and Psychopy for experiments\n\nRepository: GitHub Repository"
-  },
-  {
-    "objectID": "content/software.html#contributions-to-open-science",
-    "href": "content/software.html#contributions-to-open-science",
-    "title": "Software and Tools",
-    "section": "Contributions to Open Science",
-    "text": "Contributions to Open Science\nI am committed to open science practices, and all my tools are freely available on GitHub. I actively maintain these repositories and welcome contributions and feedback from the research community.\n\nGitHub Profile: github.com/ThemisEfth\nOpen Science Framework (OSF): OSF"
-  },
-  {
-    "objectID": "content/software.html#want-to-collaborate",
-    "href": "content/software.html#want-to-collaborate",
-    "title": "Software and Tools",
-    "section": "Want to Collaborate?",
-    "text": "Want to Collaborate?\nIf you have ideas for new tools, improvements to existing packages, or just want to explore how these tools can support your research, feel free to get in touch at themiftw20@gmail.com."
-  },
-  {
-    "objectID": "content/conferences.html#emotions-2023",
-    "href": "content/conferences.html#emotions-2023",
-    "title": "Conferences and Presentations",
-    "section": "Emotions 2023",
-    "text": "Emotions 2023\nSymposium\nTilburg, Netherlands\nSeptember 2023\nDownload Slides\n\n\n\nEmotions - Symposium group photo\n\n\nI presented at the Emotions Conference in Tilburg, Netherlands, as part of a symposium titled Re-Examining the Facial Feedback Hypothesis: Investigating Emotion Induction through Functional Neuromuscular Electrical Stimulation (fNMES) of Facial Muscles. My talk highlighted empirical findings on how fNMES-induced facial expressions, such as smiling and frowning, influence emotion perception and emotional states."
-  },
-  {
-    "objectID": "content/conferences.html#international-organization-of-psychophysiology-iop",
-    "href": "content/conferences.html#international-organization-of-psychophysiology-iop",
-    "title": "Conferences and Presentations",
-    "section": "International Organization of Psychophysiology (IOP)",
-    "text": "International Organization of Psychophysiology (IOP)\nSymposium\nGeneva, Switzerland\nJune 2023\nDownload Slides\n\n\n\nIOP Conference\n\n\nI presented my PhD research at the International Organization of Psychophysiology (IOP) conference in Geneva, Switzerland. My talk showcased the application of facial electrical stimulation (FES) to explore the relationship between facial muscle activation and emotional processing, contributing to discussions on psychophysiological methods and theories."
-  },
-  {
-    "objectID": "content/conferences.html#european-society-for-cognitive-and-affective-neuroscience-escan",
-    "href": "content/conferences.html#european-society-for-cognitive-and-affective-neuroscience-escan",
-    "title": "Conferences and Presentations",
-    "section": "European Society for Cognitive and Affective Neuroscience (ESCAN)",
-    "text": "European Society for Cognitive and Affective Neuroscience (ESCAN)\nSymposium\nAustria, Vienna\nJuly 2022\nDownload Slides\n\n\n\nESCAN Conference\n\n\nI presented at the European Society for Cognitive and Affective Neuroscience (ESCAN) symposium in 2022. My presentation explored how facial feedback shapes emotional perception, emphasizing the integration of multisensory stimuli in social and affective neuroscience research."
-  },
-  {
-    "objectID": "content/conferences.html#second-bodily-and-cognitive-selves-eastern-arc-workshop",
-    "href": "content/conferences.html#second-bodily-and-cognitive-selves-eastern-arc-workshop",
-    "title": "Conferences and Presentations",
-    "section": "Second Bodily and Cognitive Selves Eastern Arc Workshop",
-    "text": "Second Bodily and Cognitive Selves Eastern Arc Workshop\nPoster Presentation\nEssex University, Colchester, UK\n13 June\nDownload Poster\n\n\n\nEastern Arc Workshop Poster Presentation\n\n\nI presented a poster at the Second Bodily and Cognitive Selves Eastern Arc Workshop, held at Essex University in Colchester, UK. The workshop brought together researchers from Essex, UEA, and Kent to explore interdisciplinary perspectives on bodily and cognitive selves. My poster focused on the interplay between facial neuromuscular electrical stimulation (fNMES) and emotional perception, highlighting preliminary findings on user experiences and the potential cognitive and affective implications of this novel technique.\nThis presentation contributed to discussions on innovative methods for studying embodied cognition and emotions within the context of interdisciplinary research.\nVisit the workshop website for more information."
-  },
-  {
-    "objectID": "content/conferences.html#british-neuroscience-association-bna-2021",
-    "href": "content/conferences.html#british-neuroscience-association-bna-2021",
-    "title": "Conferences and Presentations",
-    "section": "British Neuroscience Association (BNA) 2021",
-    "text": "British Neuroscience Association (BNA) 2021\nSymposium\nVirtual Conference\nApril 2021\nDownload Poster\n\n\n\nBNA 2021 Conference\n\n\nI participated in the British Neuroscience Association (BNA) 2021 virtual conference, where I presented research on participant concerns regarding the prospect of receiving facial neuromuscular electrical stimulation (fNMES). The talk explored user perspectives, highlighting apprehensions about safety, comfort, and the psychological impact of fNMES. This research aimed to inform ethical and user-centred approaches for future applications of fNMES in both experimental and clinical settings.\nVisit the conference website for more information."
-  },
-  {
-    "objectID": "content/conferences.html#middlesex-university-postgraduate-researchers-summer-conference",
-    "href": "content/conferences.html#middlesex-university-postgraduate-researchers-summer-conference",
-    "title": "Conferences and Presentations",
-    "section": "Middlesex University Postgraduate Researchers’ Summer Conference",
-    "text": "Middlesex University Postgraduate Researchers’ Summer Conference\nPoster Presentation\nLondon, UK\nMarch 2020\nDownload Poster\n\n\n\nMiddlesex Postgraduate Researchers’ Conference\n\n\nAt the Middlesex University Postgraduate Researchers’ Summer Conference in 2020, I presented a poster titled Exploring the Role of Spatial Attention in Movement Simulation. The poster highlighted the interplay between spatial attention and embodied cognition, showcasing key insights into human movement perception."
-  },
-  {
-    "objectID": "content/conferences.html#british-association-of-cognitive-neuroscience-bacn",
-    "href": "content/conferences.html#british-association-of-cognitive-neuroscience-bacn",
-    "title": "Conferences and Presentations",
-    "section": "British Association of Cognitive Neuroscience (BACN)",
-    "text": "British Association of Cognitive Neuroscience (BACN)\nPoster Presentation\nCambridge, UK\nNovember 2019\nDownload Poster\n\n\n\nBACN Conference\n\n\nI presented a poster at the British Association of Cognitive Neuroscience (BACN) conference in 2019. The poster, Exploring the Role of Spatial Attention in Movement Simulation, examined the influence of attention on the simulation of movement, contributing to discussions on cognitive processes in neuroscience."
-  },
-  {
-    "objectID": "content/index.html",
-    "href": "content/index.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Themis N. Efthimiou",
     "section": "",
-    "text": "Hi, I’m Themis Nikolas Efthimiou, a researcher passionate about uncovering the fascinating complexities of human emotion, perception, and social interaction. My work sits at the intersection of neuroscience and psychology, exploring how we connect with others and experience the world."
+    "text": "Hi, I’m Themis Nikolas Efthimiou, a quantitative researcher dedicated to addressing complex social and behavioural questions. My work involves applying rigorous statistical methods and innovative tools to translate complex human data into evidence-based insights for policy and strategy."
   },
   {
-    "objectID": "content/index.html#welcome",
-    "href": "content/index.html#welcome",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
     "title": "Themis N. Efthimiou",
     "section": "",
-    "text": "Hi, I’m Themis Nikolas Efthimiou, a researcher passionate about uncovering the fascinating complexities of human emotion, perception, and social interaction. My work sits at the intersection of neuroscience and psychology, exploring how we connect with others and experience the world."
+    "text": "Hi, I’m Themis Nikolas Efthimiou, a quantitative researcher dedicated to addressing complex social and behavioural questions. My work involves applying rigorous statistical methods and innovative tools to translate complex human data into evidence-based insights for policy and strategy."
   },
   {
-    "objectID": "content/index.html#about-me",
-    "href": "content/index.html#about-me",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
     "title": "Themis N. Efthimiou",
     "section": "About Me",
-    "text": "About Me\nDuring my PhD at the University of Essex, I developed cutting-edge, non-invasive techniques for facial electrical stimulation, providing a new lens to examine how facial expressions shape emotional experiences. My research has helped refine the Facial Feedback Hypothesis, bridging theoretical models with practical applications in emotion science.\nCurrently, I’m at the University of Edinburgh, contributing to groundbreaking research on neurodiversity in social interactions. I study the unique ways autistic and non-autistic individuals engage with one another, blending behavioural science, advanced data analysis, and open science principles to understand and improve human connection.\nWhether developing innovative tools or rethinking traditional approaches, my research is driven by the belief that understanding emotion and social interaction has the power to enhance well-being and inclusivity."
+    "text": "About Me\nMy research journey has been focused on developing and applying quantitative methods to understand the nuances of human experience.\nDuring my PhD at the University of Essex, I specialised in experimental design and advanced statistical analysis. I managed a four-year research programme that involved directing randomised controlled trials (RCTs) and developing novel methodologies. This work provided robust empirical evidence to test and refine a foundational theory in emotion science.\nAs a Postdoctoral Researcher at the University of Edinburgh, I focused on the dynamics of neurodiverse social interactions. I led end-to-end analysis projects on complex, multimodal datasets and engineered new data processing systems. To support the wider research community, I also developed and published 'duet', an R package on CRAN that enhances the transparency and reproducibility of social interaction research.\nHaving completed my postdoctoral position, I am now seeking new opportunities where my analytical skills can contribute to evidence-based solutions in either an academic or applied setting."
   },
   {
-    "objectID": "content/index.html#research-interests",
-    "href": "content/index.html#research-interests",
+    "objectID": "index.html#areas-of-expertise",
+    "href": "index.html#areas-of-expertise",
     "title": "Themis N. Efthimiou",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nThe Science Behind Emotion and Interaction\n\nEmotion Perception: How do we understand and feel the emotions of others?\nFacial Feedback Hypothesis: How does activating specific facial muscles influence our emotional state?\nMultimodal Sensory Integration: How do we process and combine information from sight, sound, and other senses?\nNeurodiversity in Social Interactions: How do autistic and non-autistic individuals navigate social relationships?"
+    "section": "Areas of Expertise",
+    "text": "Areas of Expertise\nMy expertise spans research methodology, technical implementation, and deep domain knowledge.\n\nStatistics & Research Methods\n\nMixed-Effects Modelling & Bayesian Analysis\nRandomised Controlled Trial (RCT) Design\nExperimental & Survey Design (Qualtrics, PsychoPy)\nPower Analysis & A/B Testing\nQualitative Data Coding & Analysis\n\n\n\nProgramming & Technology\n\nR: Expert (Tidyverse, lme4, Shiny, R Package Development)\nPython: Proficient (Pandas, NumPy, OpenCV, Scikit-learn)\nData Visualisation: ggplot2, R-Shiny\nProject Tools: Git, Quarto, SQL\n\n\n\nDomain Knowledge\n\nBehavioural Data Science\nSocial Interaction & Neurodiversity\nEmotion Science & Human Perception"
   },
   {
-    "objectID": "content/index.html#explore-my-work",
-    "href": "content/index.html#explore-my-work",
+    "objectID": "index.html#projects-portfolio",
+    "href": "index.html#projects-portfolio",
     "title": "Themis N. Efthimiou",
-    "section": "Explore My Work",
-    "text": "Explore My Work\nHere, you’ll find an overview of my academic journey, including my published work, ongoing projects, and future aspirations. My research is designed not only to advance scientific understanding but also to inform real-world applications, from enhancing social communication to developing tools for clinical use.\n\n\nLet’s Collaborate\nIf you’re curious about my work, have ideas for collaboration, or simply want to connect, feel free to explore my CV, check out my publications, or contact me directly at tefthimi@ed.ac.uk. Together, we can delve into the dynamic world of human emotion and interaction.\n\n\n\nBuilding Bridges Between Science and Society\nBy blending curiosity, innovation, and interdisciplinary collaboration, I aim to contribute to a more inclusive, emotionally aware world—one discovery at a time."
+    "section": "Projects & Portfolio",
+    "text": "Projects & Portfolio\nHere you can find a portfolio of my work, including publications, software, and project reports. My research is designed not only to advance scientific understanding but also to build and validate tools with real-world applications."
   },
   {
-    "objectID": "content/publications.html",
-    "href": "content/publications.html",
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
     "title": "Themis N. Efthimiou",
-    "section": "",
-    "text": "Efthimiou, T.N., Ackerman, R., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, Fletcher-Watson, S., & Crompton, C.J.\nPartnered Perspectives: A Study of Interpersonal Communication Dynamics in Dyads with and without Autism.\nExpected publication date: August 2025.\nEfthimiou, T.N. & Crompton, C.J. Introducing ‘Duet’: An R package for the Analysis of Dyads. Expected publication date: December 2025.\n\n\n\nBaker, J., Ngo, H. V. V., Efthimiou, T. N., Elsenaar, A., Mehu, M., & Korb, S. (2025). Electrical stimulation of smiling muscles reduces visual processing load and enhances happiness perception in neutral faces. Communications Psychology, 3(1), 94. https://doi.org/10.1038/s44271-025-00281-y\n\nPDF OSF\n\n\nCrompton, C. J., Foster, S. J., Wilks, C. E. H., Dodd, M., Efthimiou, T. N., Ropar, D., Sasson, N. J., Lages, M., & Fletcher-Watson, S. (2025). Information transfer within and between autistic and non-autistic people. Nature Human Behaviour. https://doi.org/10.1038/s41562-025-02163-z\n\nPDF OSF\n\n\nEfthimiou, T. N., Wilks, C. E., Foster, S., Dodd, M., Sasson, N. J., Ropar, D., Lages, M., Fletcher-Watson, S., & Crompton, C. J. (2025). Social motor synchrony and interactive rapport in autistic, non-autistic, and mixed-neurotype dyads. Autism, 0(0). https://doi.org/10.1177/13623613251319585\n\nPDF OSF\n\n\nBaker, J., Efthimiou, T., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Computer-controlled electrical stimulation of facial muscles by facial neuromuscular electrical stimulation (fNMES): Hardware and software solutions. Journal of Neuroscience Methods, 411, 110266. https://doi.org/10.1016/j.jneumeth.2024.110266\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Elsenaar, A., Mehu, M., & Korb, S. (2024). Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology. Emotion. Advanced online publication. https://doi.org/10.1037/emo0001408.\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Clarke, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Zygomaticus activation through facial neuromuscular electrical stimulation (fNMES) induces happiness perception in ambiguous facial expressions and affects neural correlates of face processing. Social Cognitive and Affective Neuroscience, 19(1), nsae013. https://doi.org/10.1093/scan/nsae013\n\nPDF OSF\n\n\nEfthimiou, T.N., Hernandez, M.P., Elsenaar, A., Mehu, M. and Korb, S. Application of facial neuromuscular electrical stimulation (fNMES) in psychophysiological research: Practical recommendations based on a systematic review of the literature. Behav Res (2023). https://doi.org/10.3758/s13428-023-02262-7\n\nPDF Table ShinyApp\n\n\nBaker, J., Efthimiou, T., Scherer, R., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2023). Measurement of the N170 during facial neuromuscular electrical stimulation (fNMES). Journal of Neuroscience Methods, 109877.https://doi.org/10.1016/j.jneumeth.2023.109877\n\nPDF OSF\n\n\nEfthimiou, T.N., Hanel, P.H.P. & Korb, S. Volunteers’ concerns about facial neuromuscular electrical stimulation. BMC Psychol 10, 117 (2022). https://doi.org/10.1186/s40359-022-00827-3\n\nPDF OSF"
-  },
-  {
-    "objectID": "content/publications.html#in-preparation",
-    "href": "content/publications.html#in-preparation",
-    "title": "Themis N. Efthimiou",
-    "section": "",
-    "text": "Efthimiou, T.N., Ackerman, R., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, Fletcher-Watson, S., & Crompton, C.J.\nPartnered Perspectives: A Study of Interpersonal Communication Dynamics in Dyads with and without Autism.\nExpected publication date: August 2025.\nEfthimiou, T.N. & Crompton, C.J. Introducing ‘Duet’: An R package for the Analysis of Dyads. Expected publication date: December 2025."
-  },
-  {
-    "objectID": "content/publications.html#publications",
-    "href": "content/publications.html#publications",
-    "title": "Themis N. Efthimiou",
-    "section": "",
-    "text": "Baker, J., Ngo, H. V. V., Efthimiou, T. N., Elsenaar, A., Mehu, M., & Korb, S. (2025). Electrical stimulation of smiling muscles reduces visual processing load and enhances happiness perception in neutral faces. Communications Psychology, 3(1), 94. https://doi.org/10.1038/s44271-025-00281-y\n\nPDF OSF\n\n\nCrompton, C. J., Foster, S. J., Wilks, C. E. H., Dodd, M., Efthimiou, T. N., Ropar, D., Sasson, N. J., Lages, M., & Fletcher-Watson, S. (2025). Information transfer within and between autistic and non-autistic people. Nature Human Behaviour. https://doi.org/10.1038/s41562-025-02163-z\n\nPDF OSF\n\n\nEfthimiou, T. N., Wilks, C. E., Foster, S., Dodd, M., Sasson, N. J., Ropar, D., Lages, M., Fletcher-Watson, S., & Crompton, C. J. (2025). Social motor synchrony and interactive rapport in autistic, non-autistic, and mixed-neurotype dyads. Autism, 0(0). https://doi.org/10.1177/13623613251319585\n\nPDF OSF\n\n\nBaker, J., Efthimiou, T., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Computer-controlled electrical stimulation of facial muscles by facial neuromuscular electrical stimulation (fNMES): Hardware and software solutions. Journal of Neuroscience Methods, 411, 110266. https://doi.org/10.1016/j.jneumeth.2024.110266\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Elsenaar, A., Mehu, M., & Korb, S. (2024). Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology. Emotion. Advanced online publication. https://doi.org/10.1037/emo0001408.\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Clarke, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Zygomaticus activation through facial neuromuscular electrical stimulation (fNMES) induces happiness perception in ambiguous facial expressions and affects neural correlates of face processing. Social Cognitive and Affective Neuroscience, 19(1), nsae013. https://doi.org/10.1093/scan/nsae013\n\nPDF OSF\n\n\nEfthimiou, T.N., Hernandez, M.P., Elsenaar, A., Mehu, M. and Korb, S. Application of facial neuromuscular electrical stimulation (fNMES) in psychophysiological research: Practical recommendations based on a systematic review of the literature. Behav Res (2023). https://doi.org/10.3758/s13428-023-02262-7\n\nPDF Table ShinyApp\n\n\nBaker, J., Efthimiou, T., Scherer, R., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2023). Measurement of the N170 during facial neuromuscular electrical stimulation (fNMES). Journal of Neuroscience Methods, 109877.https://doi.org/10.1016/j.jneumeth.2023.109877\n\nPDF OSF\n\n\nEfthimiou, T.N., Hanel, P.H.P. & Korb, S. Volunteers’ concerns about facial neuromuscular electrical stimulation. BMC Psychol 10, 117 (2022). https://doi.org/10.1186/s40359-022-00827-3\n\nPDF OSF"
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nI am open to discussing new opportunities, potential collaborations, or interesting projects that aim to make a positive impact. Please feel free to explore my CV, review my work on GitHub, or contact me directly at themiftw20@gmail.com."
   },
   {
     "objectID": "content/cv.html",
@@ -217,39 +112,39 @@
     "text": "Conference Presentations\n\nPresented findings at international conferences, including ESCAN, IOP, and BNA.\n\n\nFor further details, feel free to explore my publications and ongoing projects. Download my CV (PDF)."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "content/publications.html",
+    "href": "content/publications.html",
     "title": "Themis N. Efthimiou",
     "section": "",
-    "text": "Hi, I’m Themis Nikolas Efthimiou, a quantitative researcher dedicated to addressing complex social and behavioural questions. My work involves applying rigorous statistical methods and innovative tools to translate complex human data into evidence-based insights for policy and strategy."
+    "text": "Efthimiou, T.N., Ackerman, R., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, Fletcher-Watson, S., & Crompton, C.J.\nPartnered Perspectives: A Study of Interpersonal Communication Dynamics in Dyads with and without Autism.\nExpected publication date: August 2025.\nEfthimiou, T.N. & Crompton, C.J. Introducing ‘Duet’: An R package for the Analysis of Dyads. Expected publication date: December 2025.\n\n\n\nBaker, J., Ngo, H. V. V., Efthimiou, T. N., Elsenaar, A., Mehu, M., & Korb, S. (2025). Electrical stimulation of smiling muscles reduces visual processing load and enhances happiness perception in neutral faces. Communications Psychology, 3(1), 94. https://doi.org/10.1038/s44271-025-00281-y\n\nPDF OSF\n\n\nCrompton, C. J., Foster, S. J., Wilks, C. E. H., Dodd, M., Efthimiou, T. N., Ropar, D., Sasson, N. J., Lages, M., & Fletcher-Watson, S. (2025). Information transfer within and between autistic and non-autistic people. Nature Human Behaviour. https://doi.org/10.1038/s41562-025-02163-z\n\nPDF OSF\n\n\nEfthimiou, T. N., Wilks, C. E., Foster, S., Dodd, M., Sasson, N. J., Ropar, D., Lages, M., Fletcher-Watson, S., & Crompton, C. J. (2025). Social motor synchrony and interactive rapport in autistic, non-autistic, and mixed-neurotype dyads. Autism, 0(0). https://doi.org/10.1177/13623613251319585\n\nPDF OSF\n\n\nBaker, J., Efthimiou, T., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Computer-controlled electrical stimulation of facial muscles by facial neuromuscular electrical stimulation (fNMES): Hardware and software solutions. Journal of Neuroscience Methods, 411, 110266. https://doi.org/10.1016/j.jneumeth.2024.110266\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Elsenaar, A., Mehu, M., & Korb, S. (2024). Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology. Emotion. Advanced online publication. https://doi.org/10.1037/emo0001408.\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Clarke, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Zygomaticus activation through facial neuromuscular electrical stimulation (fNMES) induces happiness perception in ambiguous facial expressions and affects neural correlates of face processing. Social Cognitive and Affective Neuroscience, 19(1), nsae013. https://doi.org/10.1093/scan/nsae013\n\nPDF OSF\n\n\nEfthimiou, T.N., Hernandez, M.P., Elsenaar, A., Mehu, M. and Korb, S. Application of facial neuromuscular electrical stimulation (fNMES) in psychophysiological research: Practical recommendations based on a systematic review of the literature. Behav Res (2023). https://doi.org/10.3758/s13428-023-02262-7\n\nPDF Table ShinyApp\n\n\nBaker, J., Efthimiou, T., Scherer, R., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2023). Measurement of the N170 during facial neuromuscular electrical stimulation (fNMES). Journal of Neuroscience Methods, 109877.https://doi.org/10.1016/j.jneumeth.2023.109877\n\nPDF OSF\n\n\nEfthimiou, T.N., Hanel, P.H.P. & Korb, S. Volunteers’ concerns about facial neuromuscular electrical stimulation. BMC Psychol 10, 117 (2022). https://doi.org/10.1186/s40359-022-00827-3\n\nPDF OSF"
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
+    "objectID": "content/publications.html#in-preparation",
+    "href": "content/publications.html#in-preparation",
     "title": "Themis N. Efthimiou",
     "section": "",
-    "text": "Hi, I’m Themis Nikolas Efthimiou, a quantitative researcher dedicated to addressing complex social and behavioural questions. My work involves applying rigorous statistical methods and innovative tools to translate complex human data into evidence-based insights for policy and strategy."
+    "text": "Efthimiou, T.N., Ackerman, R., Wilks, C., Foster, S., Ropar, D., Dodd, M., Sasson, Fletcher-Watson, S., & Crompton, C.J.\nPartnered Perspectives: A Study of Interpersonal Communication Dynamics in Dyads with and without Autism.\nExpected publication date: August 2025.\nEfthimiou, T.N. & Crompton, C.J. Introducing ‘Duet’: An R package for the Analysis of Dyads. Expected publication date: December 2025."
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
+    "objectID": "content/publications.html#publications",
+    "href": "content/publications.html#publications",
     "title": "Themis N. Efthimiou",
-    "section": "About Me",
-    "text": "About Me\nMy research journey has been focused on developing and applying quantitative methods to understand the nuances of human experience.\nDuring my PhD at the University of Essex, I specialised in experimental design and advanced statistical analysis. I managed a four-year research programme that involved directing randomised controlled trials (RCTs) and developing novel methodologies. This work provided robust empirical evidence to test and refine a foundational theory in emotion science.\nAs a Postdoctoral Researcher at the University of Edinburgh, I focused on the dynamics of neurodiverse social interactions. I led end-to-end analysis projects on complex, multimodal datasets and engineered new data processing systems. To support the wider research community, I also developed and published 'duet', an R package on CRAN that enhances the transparency and reproducibility of social interaction research.\nHaving completed my postdoctoral position, I am now seeking new opportunities where my analytical skills can contribute to evidence-based solutions in either an academic or applied setting."
+    "section": "",
+    "text": "Baker, J., Ngo, H. V. V., Efthimiou, T. N., Elsenaar, A., Mehu, M., & Korb, S. (2025). Electrical stimulation of smiling muscles reduces visual processing load and enhances happiness perception in neutral faces. Communications Psychology, 3(1), 94. https://doi.org/10.1038/s44271-025-00281-y\n\nPDF OSF\n\n\nCrompton, C. J., Foster, S. J., Wilks, C. E. H., Dodd, M., Efthimiou, T. N., Ropar, D., Sasson, N. J., Lages, M., & Fletcher-Watson, S. (2025). Information transfer within and between autistic and non-autistic people. Nature Human Behaviour. https://doi.org/10.1038/s41562-025-02163-z\n\nPDF OSF\n\n\nEfthimiou, T. N., Wilks, C. E., Foster, S., Dodd, M., Sasson, N. J., Ropar, D., Lages, M., Fletcher-Watson, S., & Crompton, C. J. (2025). Social motor synchrony and interactive rapport in autistic, non-autistic, and mixed-neurotype dyads. Autism, 0(0). https://doi.org/10.1177/13623613251319585\n\nPDF OSF\n\n\nBaker, J., Efthimiou, T., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Computer-controlled electrical stimulation of facial muscles by facial neuromuscular electrical stimulation (fNMES): Hardware and software solutions. Journal of Neuroscience Methods, 411, 110266. https://doi.org/10.1016/j.jneumeth.2024.110266\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Elsenaar, A., Mehu, M., & Korb, S. (2024). Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology. Emotion. Advanced online publication. https://doi.org/10.1037/emo0001408.\n\nPDF OSF\n\n\nEfthimiou, T . N., Baker, J., Clarke, A., Elsenaar, A., Mehu, M., & Korb, S. (2024). Zygomaticus activation through facial neuromuscular electrical stimulation (fNMES) induces happiness perception in ambiguous facial expressions and affects neural correlates of face processing. Social Cognitive and Affective Neuroscience, 19(1), nsae013. https://doi.org/10.1093/scan/nsae013\n\nPDF OSF\n\n\nEfthimiou, T.N., Hernandez, M.P., Elsenaar, A., Mehu, M. and Korb, S. Application of facial neuromuscular electrical stimulation (fNMES) in psychophysiological research: Practical recommendations based on a systematic review of the literature. Behav Res (2023). https://doi.org/10.3758/s13428-023-02262-7\n\nPDF Table ShinyApp\n\n\nBaker, J., Efthimiou, T., Scherer, R., Gartus, A., Elsenaar, A., Mehu, M., & Korb, S. (2023). Measurement of the N170 during facial neuromuscular electrical stimulation (fNMES). Journal of Neuroscience Methods, 109877.https://doi.org/10.1016/j.jneumeth.2023.109877\n\nPDF OSF\n\n\nEfthimiou, T.N., Hanel, P.H.P. & Korb, S. Volunteers’ concerns about facial neuromuscular electrical stimulation. BMC Psychol 10, 117 (2022). https://doi.org/10.1186/s40359-022-00827-3\n\nPDF OSF"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Themis N. Efthimiou",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nThe Science Behind Emotion and Interaction\n\nEmotion Perception: How do we understand and feel the emotions of others?\nFacial Feedback Hypothesis: How does activating specific facial muscles influence our emotional state?\nMultimodal Sensory Integration: How do we process and combine information from sight, sound, and other senses?\nNeurodiversity in Social Interactions: How do autistic and non-autistic individuals navigate social relationships?"
+    "objectID": "content/blogposts/from-spss-to-soldering-irons.html",
+    "href": "content/blogposts/from-spss-to-soldering-irons.html",
+    "title": "From SPSS to Soldering Irons: My Journey into Multidisciplinary Research",
+    "section": "",
+    "text": "When I started in psychological research, my world was straightforward: run a simple experiment, collect some data, and plug it into SPSS for a neat ANOVA. Bob’s your uncle, research done. The idea that I’d one day be discussing signal detection models, let alone wielding a soldering iron, was completely off my radar.\nBut my PhD threw me into the deep end. The project began as an unlikely trio: two psychologists and a performance artist. Soon, our lab meetings felt less like a psychology working group and more like a United Nations of disciplines. An engineer joined to build our hardware, a computer scientist became my co-supervisor, and a data scientist co-authored our first paper. My most important new tool wasn’t a software package, but the patient technician who taught me how to connect a cable without setting off the fire alarm.\nThis collision of worlds was profoundly challenging. It meant learning to translate ‘statistical power’ into a language an artist could appreciate, and ‘aesthetic integrity’ into a concept an engineer could work with. I quickly realised that the most innovative solutions didn’t come from any single field, but from the productive friction generated between them.\nMy biggest takeaway was that true multidisciplinary research isn’t just about borrowing tools. It’s a fundamental shift in perspective. It’s recognising the limits of your own toolkit and having the humility to see a problem through someone else’s eyes. I learned that the messy, often confusing, process of collaboration isn’t a bug in the system—it’s the feature that drives discovery."
   },
   {
-    "objectID": "index.html#explore-my-work",
-    "href": "index.html#explore-my-work",
-    "title": "Themis N. Efthimiou",
-    "section": "Explore My Work",
-    "text": "Explore My Work\nHere, you’ll find an overview of my academic journey, including my published work, ongoing projects, and future aspirations. My research is designed not only to advance scientific understanding but also to inform real-world applications, from enhancing social communication to developing tools for clinical use.\n\n\nLet’s Collaborate\nIf you’re curious about my work, have ideas for collaboration, or simply want to connect, feel free to explore my CV, check out my publications, or contact me directly at tefthimi@ed.ac.uk. Together, we can delve into the dynamic world of human emotion and interaction.\n\n\n\nBuilding Bridges Between Science and Society\nBy blending curiosity, innovation, and interdisciplinary collaboration, I aim to contribute to a more inclusive, emotionally aware world—one discovery at a time."
+    "objectID": "content/blogposts/setting-up-r-enviroment.html",
+    "href": "content/blogposts/setting-up-r-enviroment.html",
+    "title": "Setting Up Your R Environment for Reproducible Science",
+    "section": "",
+    "text": "I’ve recently had the pleasure of reviewing several excellent manuscripts where the authors have gone the extra mile, making their data and analysis code publicly available on platforms like the Open Science Framework. This commitment to open science is fantastic and a crucial step towards greater transparency in research. However, a common pitfall often prevents this good practice from being truly effective: the lack of a reproducible R environment.\nMany researchers, myself included at times, fall into the habit of using setwd() or relying on a specific local directory structure. While this works perfectly well for our own machines, it creates a significant roadblock for anyone trying to reproduce our work. When a reviewer, collaborator, or future researcher tries to run the code, it fails immediately because their file paths are different.\nWorse still, as I’ve seen in one particular case, leaving directory paths with your name or institutional information can inadvertently de-anonymise a submission during a blind peer-review process. This can compromise the integrity of the review and is an entirely avoidable issue.\nIf you’re still not convinced, consider this: reproducible code makes your own life easier. It will significantly reduce the headaches if you ever need to switch between Windows and macOS. This is because Windows uses backslashes () for file paths, while macOS and Linux use forward slashes (/). A path copied from Windows Explorer will break on another system. By using methods like the here() package or relative paths, your code uses the universal forward slash, automatically resolving these dreaded back-slash issues. Making your code portable and functional “out of the box” doesn’t just save your collaborators from troubleshooting—it ensures your future self won’t have to either.\nWith that laundry list of reasons I thought I’d share how I started working, but you can also watch this useful video if a demonstration is better (https://youtu.be/StqDYjM6ULo?si=lCGSFP7NREf7lZdN). This rest of this post will explain how to set up your R project with parallel pathing, which makes your code portable and robust. The core idea is to rely on relative paths, not absolute ones. This means that your code will find files based on their location relative to the project’s root folder, rather than a fixed location on your hard drive.\nHere’s a simple, step-by-step guide to get you started:\n\nStep 1: Use RStudio Projects\nThe easiest way to manage this is by using RStudio Projects. When you open a new project, RStudio creates an .Rproj file. This file tells R that the directory it resides in is the “root” of your project. All your scripts, data, and outputs should be organised within this project folder.\n\n\nStep 2: Avoid setwd()\nWith an RStudio Project, you no longer need to use setwd(). RStudio automatically sets your working directory to the project’s root when you open it. This single change eliminates the primary source of irreproducibility.\n\n\nStep 3: Structuring Your Project\nA common and effective project structure looks something like this:\nMyProject/\n├── data/\n│   ├── raw_data.csv\n│   └── cleaned_data.csv\n├── scripts/\n│   ├── 01_data_cleaning.R\n│   └── 02_analysis.R\n├── outputs/\n│   └── my_plot.png\n├── README.md\n└── MyProject.Rproj\n\n\nStep 4: Choose Your Pathing Method\nYou now have two primary methods for referencing files reproducibly. Both are better than setwd(), but each has its own pros and cons.\n\nMethod 1: The here Package (Recommended)\nTo make things truly bulletproof, I highly recommend using the here package. The here() function intelligently builds file paths starting from the root of your project, regardless of where your current R script is located.\nInstead of writing:\n# This is a bad idea\ndata &lt;- read.csv(\"C:/Users/YourName/Documents/MyProject/data/raw_data.csv\")\nOr even:\n# This might break if the script is moved\ndata &lt;- read.csv(\"data/raw_data.csv\")\nYou can write:\n# The reproducible way\nlibrary(here)\ndata &lt;- read.csv(here(\"data\", \"raw_data.csv\"))\nThe here() function combines the folder names into a correct file path for your operating system, ensuring that the code will work seamlessly for anyone, anywhere, who has the project folder downloaded. My rationale for recommending this approach is that it is the most robust and least prone to error, especially as projects grow in complexity.\n\n\nMethod 2: Relative Paths with ../\nAn alternative, which doesn’t require an additional package, is to use standard relative pathing. The ../ syntax means “move up one directory level”. If your script is in the scripts folder and you want to access a file in the data folder, you can go up a level to the project root and then down into the data folder.\nFor example, a script in scripts/ could access data with this code:\n# The relative pathing way\ndata &lt;- read.csv(\"../data/raw_data.csv\")\nThis method is simple and effective for many projects. However, a key caveat is that if you move the script to a different location within your project (e.g., to a new subdirectory scripts/analysis/), this path will break because the relative relationship has changed. This is why the here package is often a more reliable choice, as it always builds paths from the project root.\nBy adopting one of these practices, you ensure that your code is not just available, but truly reproducible. You remove a significant barrier for those trying to understand and build upon your work, and you protect yourself from accidental deanonymisation during the review process. It’s a small change that makes a big difference for the entire research community."
   },
   {
     "objectID": "content/conferences.html#autism-europe-congress-2025",
@@ -266,38 +161,94 @@
     "text": "INSAR 2025 Annual Meeting\nPoster Presentation\nSeattle, USA\nApril 2025\nDownload Poster"
   },
   {
-    "objectID": "index.html#areas-of-expertise",
-    "href": "index.html#areas-of-expertise",
-    "title": "Themis N. Efthimiou",
-    "section": "Areas of Expertise",
-    "text": "Areas of Expertise\nMy expertise spans research methodology, technical implementation, and deep domain knowledge.\n\nStatistics & Research Methods\n\nMixed-Effects Modelling & Bayesian Analysis\nRandomised Controlled Trial (RCT) Design\nExperimental & Survey Design (Qualtrics, PsychoPy)\nPower Analysis & A/B Testing\nQualitative Data Coding & Analysis\n\n\n\nProgramming & Technology\n\nR: Expert (Tidyverse, lme4, Shiny, R Package Development)\nPython: Proficient (Pandas, NumPy, OpenCV, Scikit-learn)\nData Visualisation: ggplot2, R-Shiny\nProject Tools: Git, Quarto, SQL\n\n\n\nDomain Knowledge\n\nBehavioural Data Science\nSocial Interaction & Neurodiversity\nEmotion Science & Human Perception"
+    "objectID": "content/conferences.html#emotions-2023",
+    "href": "content/conferences.html#emotions-2023",
+    "title": "Conferences and Presentations",
+    "section": "Emotions 2023",
+    "text": "Emotions 2023\nSymposium\nTilburg, Netherlands\nSeptember 2023\nDownload Slides\n\n\n\nEmotions - Symposium group photo\n\n\nI presented at the Emotions Conference in Tilburg, Netherlands, as part of a symposium titled Re-Examining the Facial Feedback Hypothesis: Investigating Emotion Induction through Functional Neuromuscular Electrical Stimulation (fNMES) of Facial Muscles. My talk highlighted empirical findings on how fNMES-induced facial expressions, such as smiling and frowning, influence emotion perception and emotional states."
   },
   {
-    "objectID": "index.html#projects-portfolio",
-    "href": "index.html#projects-portfolio",
-    "title": "Themis N. Efthimiou",
-    "section": "Projects & Portfolio",
-    "text": "Projects & Portfolio\nHere you can find a portfolio of my work, including publications, software, and project reports. My research is designed not only to advance scientific understanding but also to build and validate tools with real-world applications."
+    "objectID": "content/conferences.html#international-organization-of-psychophysiology-iop",
+    "href": "content/conferences.html#international-organization-of-psychophysiology-iop",
+    "title": "Conferences and Presentations",
+    "section": "International Organization of Psychophysiology (IOP)",
+    "text": "International Organization of Psychophysiology (IOP)\nSymposium\nGeneva, Switzerland\nJune 2023\nDownload Slides\n\n\n\nIOP Conference\n\n\nI presented my PhD research at the International Organization of Psychophysiology (IOP) conference in Geneva, Switzerland. My talk showcased the application of facial electrical stimulation (FES) to explore the relationship between facial muscle activation and emotional processing, contributing to discussions on psychophysiological methods and theories."
   },
   {
-    "objectID": "index.html#lets-connect",
-    "href": "index.html#lets-connect",
-    "title": "Themis N. Efthimiou",
-    "section": "Let’s Connect",
-    "text": "Let’s Connect\nI am open to discussing new opportunities, potential collaborations, or interesting projects that aim to make a positive impact. Please feel free to explore my CV, review my work on GitHub, or contact me directly at themiftw20@gmail.com.\n\nBridging behavioural science and public good through data-driven research."
+    "objectID": "content/conferences.html#european-society-for-cognitive-and-affective-neuroscience-escan",
+    "href": "content/conferences.html#european-society-for-cognitive-and-affective-neuroscience-escan",
+    "title": "Conferences and Presentations",
+    "section": "European Society for Cognitive and Affective Neuroscience (ESCAN)",
+    "text": "European Society for Cognitive and Affective Neuroscience (ESCAN)\nSymposium\nAustria, Vienna\nJuly 2022\nDownload Slides\n\n\n\nESCAN Conference\n\n\nI presented at the European Society for Cognitive and Affective Neuroscience (ESCAN) symposium in 2022. My presentation explored how facial feedback shapes emotional perception, emphasizing the integration of multisensory stimuli in social and affective neuroscience research."
   },
   {
-    "objectID": "content/blogposts/from-spss-to-soldering-irons.html",
-    "href": "content/blogposts/from-spss-to-soldering-irons.html",
-    "title": "From SPSS to Soldering Irons: My Journey into Multidisciplinary Research",
+    "objectID": "content/conferences.html#second-bodily-and-cognitive-selves-eastern-arc-workshop",
+    "href": "content/conferences.html#second-bodily-and-cognitive-selves-eastern-arc-workshop",
+    "title": "Conferences and Presentations",
+    "section": "Second Bodily and Cognitive Selves Eastern Arc Workshop",
+    "text": "Second Bodily and Cognitive Selves Eastern Arc Workshop\nPoster Presentation\nEssex University, Colchester, UK\n13 June\nDownload Poster\n\n\n\nEastern Arc Workshop Poster Presentation\n\n\nI presented a poster at the Second Bodily and Cognitive Selves Eastern Arc Workshop, held at Essex University in Colchester, UK. The workshop brought together researchers from Essex, UEA, and Kent to explore interdisciplinary perspectives on bodily and cognitive selves. My poster focused on the interplay between facial neuromuscular electrical stimulation (fNMES) and emotional perception, highlighting preliminary findings on user experiences and the potential cognitive and affective implications of this novel technique.\nThis presentation contributed to discussions on innovative methods for studying embodied cognition and emotions within the context of interdisciplinary research.\nVisit the workshop website for more information."
+  },
+  {
+    "objectID": "content/conferences.html#british-neuroscience-association-bna-2021",
+    "href": "content/conferences.html#british-neuroscience-association-bna-2021",
+    "title": "Conferences and Presentations",
+    "section": "British Neuroscience Association (BNA) 2021",
+    "text": "British Neuroscience Association (BNA) 2021\nSymposium\nVirtual Conference\nApril 2021\nDownload Poster\n\n\n\nBNA 2021 Conference\n\n\nI participated in the British Neuroscience Association (BNA) 2021 virtual conference, where I presented research on participant concerns regarding the prospect of receiving facial neuromuscular electrical stimulation (fNMES). The talk explored user perspectives, highlighting apprehensions about safety, comfort, and the psychological impact of fNMES. This research aimed to inform ethical and user-centred approaches for future applications of fNMES in both experimental and clinical settings.\nVisit the conference website for more information."
+  },
+  {
+    "objectID": "content/conferences.html#middlesex-university-postgraduate-researchers-summer-conference",
+    "href": "content/conferences.html#middlesex-university-postgraduate-researchers-summer-conference",
+    "title": "Conferences and Presentations",
+    "section": "Middlesex University Postgraduate Researchers’ Summer Conference",
+    "text": "Middlesex University Postgraduate Researchers’ Summer Conference\nPoster Presentation\nLondon, UK\nMarch 2020\nDownload Poster\n\n\n\nMiddlesex Postgraduate Researchers’ Conference\n\n\nAt the Middlesex University Postgraduate Researchers’ Summer Conference in 2020, I presented a poster titled Exploring the Role of Spatial Attention in Movement Simulation. The poster highlighted the interplay between spatial attention and embodied cognition, showcasing key insights into human movement perception."
+  },
+  {
+    "objectID": "content/conferences.html#british-association-of-cognitive-neuroscience-bacn",
+    "href": "content/conferences.html#british-association-of-cognitive-neuroscience-bacn",
+    "title": "Conferences and Presentations",
+    "section": "British Association of Cognitive Neuroscience (BACN)",
+    "text": "British Association of Cognitive Neuroscience (BACN)\nPoster Presentation\nCambridge, UK\nNovember 2019\nDownload Poster\n\n\n\nBACN Conference\n\n\nI presented a poster at the British Association of Cognitive Neuroscience (BACN) conference in 2019. The poster, Exploring the Role of Spatial Attention in Movement Simulation, examined the influence of attention on the simulation of movement, contributing to discussions on cognitive processes in neuroscience."
+  },
+  {
+    "objectID": "content/software.html",
+    "href": "content/software.html",
+    "title": "Software and Tools",
     "section": "",
-    "text": "When I started in psychological research, my world was straightforward: run a simple experiment, collect some data, and plug it into SPSS for a neat ANOVA. Bob’s your uncle, research done. The idea that I’d one day be discussing signal detection models, let alone wielding a soldering iron, was completely off my radar.\nBut my PhD threw me into the deep end. The project began as an unlikely trio: two psychologists and a performance artist. Soon, our lab meetings felt less like a psychology working group and more like a United Nations of disciplines. An engineer joined to build our hardware, a computer scientist became my co-supervisor, and a data scientist co-authored our first paper. My most important new tool wasn’t a software package, but the patient technician who taught me how to connect a cable without setting off the fire alarm.\nThis collision of worlds was profoundly challenging. It meant learning to translate ‘statistical power’ into a language an artist could appreciate, and ‘aesthetic integrity’ into a concept an engineer could work with. I quickly realised that the most innovative solutions didn’t come from any single field, but from the productive friction generated between them.\nMy biggest takeaway was that true multidisciplinary research isn’t just about borrowing tools. It’s a fundamental shift in perspective. It’s recognising the limits of your own toolkit and having the humility to see a problem through someone else’s eyes. I learned that the messy, often confusing, process of collaboration isn’t a bug in the system—it’s the feature that drives discovery."
+    "text": "I develop software tools to support data analysis and experimental research in social and cognitive neuroscience. Below is a list of my contributions, including R packages and other utilities that aim to make complex analyses more accessible and reproducible."
   },
   {
-    "objectID": "content/blogposts/setting-up-r-enviroment.html",
-    "href": "content/blogposts/setting-up-r-enviroment.html",
-    "title": "Setting Up Your R Environment for Reproducible Science",
+    "objectID": "content/software.html#r-packages",
+    "href": "content/software.html#r-packages",
+    "title": "Software and Tools",
+    "section": "R Packages",
+    "text": "R Packages\n\nDuet\n\nDescription: An R package for analysing dyadic interactions, focusing on pre-processing, stimuli generation, and, movement kinematics. Designed to handle complex nested data structures and provide user-friendly interfaces for visualisation.\nKey Features:\n\nVisualisation of interaction dynamics\nFunctions for mixed-effects modelling of dyadic data\n\nRepository: GitHub Repository\nDocumentation: Package Documentation"
+  },
+  {
+    "objectID": "content/software.html#experimental-design-tools",
+    "href": "content/software.html#experimental-design-tools",
+    "title": "Software and Tools",
+    "section": "Experimental Design Tools",
+    "text": "Experimental Design Tools\n\nFacial Electrical Stimulation Framework\n\nDescription: A Python-based framework for real-time control and analysis of facial electrical stimulation (FES) experiments. It integrates with hardware and software to facilitate high-precision studies on emotion perception and facial feedback.\nKey Features:\n\nHardware integration for Arduino controlled electrical stimulators\nCompatibility with MATLAB and Psychopy for experiments\n\nRepository: GitHub Repository"
+  },
+  {
+    "objectID": "content/software.html#contributions-to-open-science",
+    "href": "content/software.html#contributions-to-open-science",
+    "title": "Software and Tools",
+    "section": "Contributions to Open Science",
+    "text": "Contributions to Open Science\nI am committed to open science practices, and all my tools are freely available on GitHub. I actively maintain these repositories and welcome contributions and feedback from the research community.\n\nGitHub Profile: github.com/ThemisEfth\nOpen Science Framework (OSF): OSF"
+  },
+  {
+    "objectID": "content/software.html#want-to-collaborate",
+    "href": "content/software.html#want-to-collaborate",
+    "title": "Software and Tools",
+    "section": "Want to Collaborate?",
+    "text": "Want to Collaborate?\nIf you have ideas for new tools, improvements to existing packages, or just want to explore how these tools can support your research, feel free to get in touch at themiftw20@gmail.com."
+  },
+  {
+    "objectID": "content/blog.html",
+    "href": "content/blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "I’ve recently had the pleasure of reviewing several excellent manuscripts where the authors have gone the extra mile, making their data and analysis code publicly available on platforms like the Open Science Framework (OSF). This commitment to open science is fantastic and a crucial step towards greater transparency in research. However, a common pitfall often prevents this good practice from being truly effective: the lack of a reproducible R environment.\nMany researchers, myself included at times, fall into the habit of using setwd() or relying on a specific local directory structure. While this works perfectly well for our own machines, it creates a significant roadblock for anyone trying to reproduce our work. When a reviewer, collaborator, or future researcher tries to run the code, it fails immediately because their file paths are different.\nWorse still, as I’ve seen in one particular case, leaving directory paths with your name or institutional information can inadvertently de-anonymise a submission during a blind peer-review process. This can compromise the integrity of the review and is an entirely avoidable issue.\nThe solution is to set up your R project with parallel pathing, which makes your code portable and robust. The core idea is to rely on relative paths, not absolute ones. This means that your code will find files based on their location relative to the project’s root folder, rather than a fixed location on your hard drive.\nHere’s a simple, step-by-step guide to get you started:\n\nStep 1: Use RStudio Projects\nThe easiest way to manage this is by using RStudio Projects. When you open a new project, RStudio creates an .Rproj file. This file tells R that the directory it resides in is the “root” of your project. All your scripts, data, and outputs should be organised within this project folder.\n\n\nStep 2: Avoid setwd()\nWith an RStudio Project, you no longer need to use setwd(). RStudio automatically sets your working directory to the project’s root when you open it. This single change eliminates the primary source of irreproducibility.\n\n\nStep 3: Structuring Your Project\nA common and effective project structure looks something like this:\nMyProject/\n├── data/\n│   ├── raw_data.csv\n│   └── cleaned_data.csv\n├── scripts/\n│   ├── 01_data_cleaning.R\n│   └── 02_analysis.R\n├── outputs/\n│   └── my_plot.png\n├── README.md\n└── MyProject.Rproj\n\n\nStep 4: Choose Your Pathing Method\nYou now have two primary methods for referencing files reproducibly. Both are better than setwd(), but each has its own pros and cons.\n\nMethod 1: The here Package (Recommended)\nTo make things truly bulletproof, I highly recommend using the here package. The here() function intelligently builds file paths starting from the root of your project, regardless of where your current R script is located.\nInstead of writing:\n# This is a bad idea\ndata &lt;- read.csv(\"C:/Users/YourName/Documents/MyProject/data/raw_data.csv\")\nOr even:\n# This might break if the script is moved\ndata &lt;- read.csv(\"data/raw_data.csv\")\nYou can write:\n# The reproducible way\nlibrary(here)\ndata &lt;- read.csv(here(\"data\", \"raw_data.csv\"))\nThe here() function combines the folder names into a correct file path for your operating system, ensuring that the code will work seamlessly for anyone, anywhere, who has the project folder downloaded. My rationale for recommending this approach is that it is the most robust and least prone to error, especially as projects grow in complexity.\n\n\nMethod 2: Relative Paths with ../\nAn alternative, which doesn’t require an additional package, is to use standard relative pathing. The ../ syntax means “move up one directory level”. If your script is in the scripts folder and you want to access a file in the data folder, you can go up a level to the project root and then down into the data folder.\nFor example, a script in scripts/ could access data with this code:\n# The relative pathing way\ndata &lt;- read.csv(\"../data/raw_data.csv\")\nThis method is simple and effective for many projects. However, a key caveat is that if you move the script to a different location within your project (e.g., to a new subdirectory scripts/analysis/), this path will break because the relative relationship has changed. This is why the here package is often a more reliable choice, as it always builds paths from the project root.\nBy adopting one of these practices, you ensure that your code is not just available, but truly reproducible. You remove a significant barrier for those trying to understand and build upon your work, and you protect yourself from accidental deanonymisation during the review process. It’s a small change that makes a big difference for the entire research community."
+    "text": "Welcome to my blog\nIf you like the blog, consider subscribing below to be notified whenever a new post comes out (it’s free!).\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\n\n\n\n\nSetting Up Your R Environment for Reproducible Science\n\n\n\nMethodology\n\nR\n\n\n\nThis blog post explains how to make your R code reproducible by avoiding absolute file paths and the setwd() function. It advocates for using RStudio Projects and relative…\n\n\n\nThemis N. Efthimiou\n\n\nAug 21, 2025\n\n\n\n\n\n\n\n\n\n\n\nFrom SPSS to Soldering Irons: My Journey into Multidisciplinary Research\n\n\n\nMethodology\n\nMultidisciplinary Research\n\nPersonal Journey\n\n\n\nHow leaving the comfort zone of psychology taught me that the most valuable breakthroughs happen at the intersection of different fields.\n\n\n\nThemis N. Efthimiou\n\n\nJul 29, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
