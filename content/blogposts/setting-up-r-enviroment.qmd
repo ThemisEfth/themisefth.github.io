@@ -1,6 +1,6 @@
 ---
 title: "Setting Up Your R Environment for Reproducible Science"
-description: "Make your code accessible by setting up your R enviroment."
+description: "This blog post explains how to make your R code reproducible by avoiding absolute file paths and the setwd() function. It advocates for using RStudio Projects and relative paths, recommending the here package for robustly building file paths from the project root."
 author: "Themis N. Efthimiou"
 date: "2025-08-21"
 categories: [Methodology, R]
